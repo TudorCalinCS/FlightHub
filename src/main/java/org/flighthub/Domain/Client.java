@@ -9,6 +9,7 @@ public class Client extends Entity<UUID>{
     public Client(String name,String address) {
         this.name = name;
         this.address=address;
+        //if(this.getId()==null) this.setId(UUID.randomUUID());
     }
 
     public String getName() {

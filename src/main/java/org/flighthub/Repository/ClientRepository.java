@@ -1,5 +1,7 @@
 package org.flighthub.Repository;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.flighthub.Domain.Client;
 import org.flighthub.Utils.JdbcUtils;
 
@@ -14,6 +16,8 @@ import java.util.UUID;
 
 public class ClientRepository implements IClientRepository{
     private final JdbcUtils JDBCconnection;
+    private static final Logger logger = LogManager.getLogger();
+
 
     public ClientRepository(JdbcUtils connection) {
         this.JDBCconnection = connection;
@@ -22,19 +26,22 @@ public class ClientRepository implements IClientRepository{
     @Override
     public Optional<Client> findOne(UUID id) {
         try {
+            logger.traceEntry();
+            logger.info("trying to find one Client");
             Connection connection = JDBCconnection.getConnection();
-            String query = "SELECT * FROM Clients WHERE id = ?";
+            String query = "SELECT * FROM Client WHERE id = ?";
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, id.toString());
             ResultSet resultSet = statement.executeQuery();
 
             if (resultSet.next()) {
-                Client client = new Client(resultSet.getString("name"), resultSet.getString("address"));
+                Client client = new Client(resultSet.getString("name"), resultSet.getString("adress"));
                 client.setId(UUID.fromString(resultSet.getString("id")));
                 return Optional.of(client);
             }
         } catch (SQLException e) {
-            System.out.println("Error DB "+e);
+            System.out.println("Error Repo "+e);
+            logger.error(e);
         }
 
         return Optional.empty();
@@ -45,18 +52,21 @@ public class ClientRepository implements IClientRepository{
         List<Client> clients = new ArrayList<>();
 
         try {
+            logger.traceEntry();
+            logger.info("trying to find multiple Clients");
             Connection connection = JDBCconnection.getConnection();
-            String query = "SELECT * FROM Clients";
+            String query = "SELECT * FROM Client";
             PreparedStatement statement = connection.prepareStatement(query);
             ResultSet resultSet = statement.executeQuery();
 
             while (resultSet.next()) {
-                Client client = new Client(resultSet.getString("name"), resultSet.getString("address"));
+                Client client = new Client(resultSet.getString("name"), resultSet.getString("adress"));
                 client.setId(UUID.fromString(resultSet.getString("id")));
                 clients.add(client);
             }
         } catch (SQLException e) {
-            System.out.println("Error DB "+e);
+            System.out.println("Error Repo "+e);
+            logger.error(e);
         }
 
         return clients;
@@ -65,15 +75,20 @@ public class ClientRepository implements IClientRepository{
     @Override
     public Client save(Client entity) {
         try {
+            logger.traceEntry();
+            logger.info("trying to save one Client");
             Connection connection = JDBCconnection.getConnection();
-            String query = "INSERT INTO Clients (id, name, address) VALUES (?, ?, ?)";
+            String query = "INSERT INTO Client (id, name, adress) VALUES (?, ?, ?)";
             PreparedStatement statement = connection.prepareStatement(query);
-            statement.setString(1, entity.getId().toString());
+            UUID uuid= UUID.randomUUID();
+            entity.setId(uuid);
+            statement.setString(1, uuid.toString());
             statement.setString(2, entity.getName());
             statement.setString(3, entity.getAddress());
             statement.executeUpdate();
         } catch (SQLException e) {
-            System.out.println("Error DB "+e);
+            System.out.println("Error Repo "+e);
+            logger.error(e);
         }
 
         return entity;
@@ -85,13 +100,16 @@ public class ClientRepository implements IClientRepository{
 
         if (clientOptional.isPresent()) {
             try {
+                logger.traceEntry();
+                logger.info("trying to delete one Client");
                 Connection connection = JDBCconnection.getConnection();
-                String query = "DELETE FROM Clients WHERE id = ?";
+                String query = "DELETE FROM Client WHERE id = ?";
                 PreparedStatement statement = connection.prepareStatement(query);
                 statement.setString(1, id.toString());
                 statement.executeUpdate();
             } catch (SQLException e) {
-                System.out.println("Error DB "+e);
+                System.out.println("Error Repo "+e);
+                logger.error(e);
             }
         }
 
@@ -104,15 +122,18 @@ public class ClientRepository implements IClientRepository{
 
         if (clientOptional.isPresent()) {
             try {
+                logger.traceEntry();
+                logger.info("trying to update one Client");
                 Connection connection = JDBCconnection.getConnection();
-                String query = "UPDATE Clients SET name = ?, address = ? WHERE id = ?";
+                String query = "UPDATE Client SET name = ?, adress = ? WHERE id = ?";
                 PreparedStatement statement = connection.prepareStatement(query);
                 statement.setString(1, entity.getName());
                 statement.setString(2, entity.getAddress());
                 statement.setString(3, entity.getId().toString());
                 statement.executeUpdate();
             } catch (SQLException e) {
-                System.out.println("Error DB "+e);
+                System.out.println("Error Repo "+e);
+                logger.error(e);
             }
         }
 

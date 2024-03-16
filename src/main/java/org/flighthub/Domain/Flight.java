@@ -13,6 +13,7 @@ public class Flight extends Entity<UUID>{
         this.destination = destination;
         this.dateTime=dateTime;
         this.availableSeats = availableSeats;
+        //if(this.getId()==null) this.setId(UUID.randomUUID());
     }
 
     public String getDestination() {

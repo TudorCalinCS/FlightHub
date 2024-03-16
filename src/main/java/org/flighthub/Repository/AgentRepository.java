@@ -1,5 +1,7 @@
 package org.flighthub.Repository;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.flighthub.Domain.Agent;
 import org.flighthub.Repository.IAgentRepository;
 import org.flighthub.Utils.JdbcUtils;
@@ -15,6 +17,8 @@ import java.util.UUID;
 
 public class AgentRepository implements IAgentRepository {
     private final JdbcUtils JDBCconnection;
+    private static final Logger logger = LogManager.getLogger();
+
 
     public AgentRepository(JdbcUtils connection) {
         this.JDBCconnection = connection;
@@ -23,8 +27,10 @@ public class AgentRepository implements IAgentRepository {
     @Override
     public Optional<Agent> findOne(UUID id) {
         try {
-            Connection connection= JDBCconnection.getConnection();
-            String query = "SELECT * FROM Agents WHERE id = ?";
+            logger.traceEntry();
+            logger.info("trying to find one Agent");
+            Connection connection = JDBCconnection.getConnection();
+            String query = "SELECT * FROM Agent WHERE id = ?";
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, id.toString());
             ResultSet resultSet = statement.executeQuery();
@@ -35,7 +41,9 @@ public class AgentRepository implements IAgentRepository {
                 return Optional.of(agent);
             }
         } catch (SQLException e) {
-            System.out.println("Error DB "+e);
+            System.out.println("Error Repo: " + e);
+            logger.error(e);
+
         }
 
         return Optional.empty();
@@ -46,8 +54,10 @@ public class AgentRepository implements IAgentRepository {
         List<Agent> agents = new ArrayList<>();
 
         try {
-            Connection connection= JDBCconnection.getConnection();
-            String query = "SELECT * FROM Agents";
+            logger.traceEntry();
+            logger.info("trying to find multiple Agents");
+            Connection connection = JDBCconnection.getConnection();
+            String query = "SELECT * FROM Agent";
             PreparedStatement statement = connection.prepareStatement(query);
             ResultSet resultSet = statement.executeQuery();
 
@@ -57,7 +67,8 @@ public class AgentRepository implements IAgentRepository {
                 agents.add(agent);
             }
         } catch (SQLException e) {
-            System.out.println("Error DB "+e);
+            System.out.println("Error Repo " + e);
+            logger.error(e);
         }
 
         return agents;
@@ -66,14 +77,17 @@ public class AgentRepository implements IAgentRepository {
     @Override
     public Agent save(Agent entity) {
         try {
-            Connection connection= JDBCconnection.getConnection();
-            String query = "INSERT INTO Agents (id, username) VALUES (?, ?)";
+            logger.traceEntry();
+            logger.info("trying to save one Agent");
+            Connection connection = JDBCconnection.getConnection();
+            String query = "INSERT INTO Agent (id, username) VALUES (?, ?)";
             PreparedStatement statement = connection.prepareStatement(query);
-            statement.setString(1, entity.getId().toString());
+            statement.setString(1, UUID.randomUUID().toString());
             statement.setString(2, entity.getUsername());
             statement.executeUpdate();
         } catch (SQLException e) {
-            System.out.println("Error DB "+e);
+            System.out.println("Error Repo " + e);
+            logger.error(e);
         }
 
         return entity;
@@ -85,13 +99,16 @@ public class AgentRepository implements IAgentRepository {
 
         if (agentOptional.isPresent()) {
             try {
-                Connection connection= JDBCconnection.getConnection();
-                String query = "DELETE FROM Agents WHERE id = ?";
+                logger.traceEntry();
+                logger.info("trying to delete one Agent");
+                Connection connection = JDBCconnection.getConnection();
+                String query = "DELETE FROM Agent WHERE id = ?";
                 PreparedStatement statement = connection.prepareStatement(query);
                 statement.setString(1, id.toString());
                 statement.executeUpdate();
             } catch (SQLException e) {
-                System.out.println("Error DB "+e);
+                System.out.println("Error Repo " + e);
+                logger.error(e);
             }
         }
 
@@ -104,14 +121,17 @@ public class AgentRepository implements IAgentRepository {
 
         if (agentOptional.isPresent()) {
             try {
-                Connection connection= JDBCconnection.getConnection();
-                String query = "UPDATE Agents SET username = ? WHERE id = ?";
+                logger.traceEntry();
+                logger.info("trying to update one Agent");
+                Connection connection = JDBCconnection.getConnection();
+                String query = "UPDATE Agent SET username = ? WHERE id = ?";
                 PreparedStatement statement = connection.prepareStatement(query);
                 statement.setString(1, entity.getUsername());
                 statement.setString(2, entity.getId().toString());
                 statement.executeUpdate();
             } catch (SQLException e) {
-                System.out.println("Error DB "+e);
+                System.out.println("Error Repo " + e);
+                logger.error(e);
             }
         }
 
