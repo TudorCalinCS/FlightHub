@@ -14,4 +14,16 @@ public class Flight extends Entity<UUID>{
         this.dateTime=dateTime;
         this.availableSeats = availableSeats;
     }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public LocalDateTime getDateTime() {
+        return dateTime;
+    }
+
+    public Integer getAvailableSeats() {
+        return availableSeats;
+    }
 }

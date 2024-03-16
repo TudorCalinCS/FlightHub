@@ -14,4 +14,20 @@ public class Ticket extends Entity<UUID> {
         this.touristsName = touristsName;
         this.flight = flight;
     }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public String[] getTouristsName() {
+        return touristsName;
+    }
+
+    public Flight getFlight() {
+        return flight;
+    }
+
+    public Integer getSeats() {
+        return seats;
+    }
 }
