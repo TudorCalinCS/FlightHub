@@ -1,0 +1,29 @@
+use FlightHub
+go
+CREATE TABLE Agent (
+    id UNIQUEIDENTIFIER PRIMARY KEY,
+    username NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Client (
+    id UNIQUEIDENTIFIER PRIMARY KEY,
+    name NVARCHAR(255) NOT NULL,
+    adress NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Flight (
+    id UNIQUEIDENTIFIER PRIMARY KEY,
+    destination NVARCHAR(255) NOT NULL,
+    dateTime DATETIME NOT NULL,
+    availableSeats INT NOT NULL
+);
+
+CREATE TABLE Ticket (
+    id UNIQUEIDENTIFIER PRIMARY KEY,
+    clientId UNIQUEIDENTIFIER NOT NULL,
+    touristsName NVARCHAR(255) NOT NULL,
+    flightId UNIQUEIDENTIFIER NOT NULL,
+    seats INT NOT NULL,
+    FOREIGN KEY (clientId) REFERENCES Client(id),
+    FOREIGN KEY (flightId) REFERENCES Flight(id)
+);
