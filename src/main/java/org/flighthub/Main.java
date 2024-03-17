@@ -1,4 +1,7 @@
 package org.flighthub;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.flighthub.Utils.JdbcUtils;
 
 import java.io.FileInputStream;
@@ -8,29 +11,30 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class Main {
-    public static void main(String[] args) {
+    private static final Logger logger = LogManager.getLogger();
 
+    public static void main(String[] args) throws SQLException {
+        logger.traceEntry();
 
-        // Properties file
         Properties props = new Properties();
         try {
             props.load(new FileInputStream("src/main/java/org/flighthub/jdbc.properties"));
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error(e);
             return;
         }
-
-        // Creează o instanță de JdbcUtils cu proprietățile încărcate
         JdbcUtils jdbcUtils = new JdbcUtils(props);
 
-        // Obține conexiunea la baza de date
-        try (Connection connection = jdbcUtils.getConnection()) {
-            System.out.println("Conexiunea la baza de date a fost stabilită cu succes!");
 
-            // Aici poți executa interogări sau alte operații asupra bazei de date
+        try (Connection connection = jdbcUtils.getConnection()) {
+            System.out.println("DB connected");
+
+
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error(e);
         }
+
+
     }
 
 }

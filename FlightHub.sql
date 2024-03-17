@@ -1,3 +1,5 @@
+Create Database FlightHub
+go
 use FlightHub
 go
 CREATE TABLE Agent (

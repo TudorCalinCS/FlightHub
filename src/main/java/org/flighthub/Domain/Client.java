@@ -4,11 +4,19 @@ import java.util.UUID;
 
 public class Client extends Entity<UUID>{
     private String name;
-    private String adress;
+    private String address;
 
-    public Client(String name,String adress) {
+    public Client(String name,String address) {
         this.name = name;
-        this.adress=adress;
+        this.address=address;
+        //if(this.getId()==null) this.setId(UUID.randomUUID());
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }
