@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.flighthub.Domain.Agent;
 import org.flighthub.Repository.IAgentRepository;
 import org.flighthub.Utils.JdbcUtils;
+import org.mindrot.jbcrypt.BCrypt;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -50,6 +51,31 @@ public class AgentRepository implements IAgentRepository {
     }
 
     @Override
+    public Optional<Agent> findOneByUsername(String username) {
+        try {
+            logger.traceEntry();
+            logger.info("trying to find one Agent by username");
+            Connection connection = JDBCconnection.getConnection();
+            String query = "SELECT * FROM Agent WHERE username = ?";
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setString(1, username);
+            ResultSet resultSet = statement.executeQuery();
+
+            if (resultSet.next()) {
+                Agent agent = new Agent(resultSet.getString("username"));
+                agent.setId(UUID.fromString(resultSet.getString("id")));
+                return Optional.of(agent);
+            }
+        } catch (SQLException e) {
+            System.out.println("Error Repo " + e);
+            logger.error(e);
+        }
+
+        return Optional.empty();
+    }
+
+
+    @Override
     public Iterable<Agent> findAll() {
         List<Agent> agents = new ArrayList<>();
 
@@ -76,14 +102,21 @@ public class AgentRepository implements IAgentRepository {
 
     @Override
     public Agent save(Agent entity) {
+        return null;
+    }
+
+    @Override
+    public Agent save(Agent entity, String password) {
         try {
             logger.traceEntry();
             logger.info("trying to save one Agent");
             Connection connection = JDBCconnection.getConnection();
-            String query = "INSERT INTO Agent (id, username) VALUES (?, ?)";
+            String query = "INSERT INTO Agent (id, username, password) VALUES (?,?,?)";
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, UUID.randomUUID().toString());
             statement.setString(2, entity.getUsername());
+            String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
+            statement.setString(3, hashedPassword);
             statement.executeUpdate();
         } catch (SQLException e) {
             System.out.println("Error Repo " + e);
@@ -92,6 +125,7 @@ public class AgentRepository implements IAgentRepository {
 
         return entity;
     }
+
 
     @Override
     public Optional<Agent> delete(UUID id) {
@@ -137,4 +171,32 @@ public class AgentRepository implements IAgentRepository {
 
         return agentOptional;
     }
+
+    @Override
+    public Agent login(String username, String password) {
+        try {
+            logger.traceEntry();
+            logger.info("trying to login Agent");
+            Connection connection = JDBCconnection.getConnection();
+            String query = "SELECT * FROM Agent WHERE username = ?";
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setString(1, username);
+            ResultSet resultSet = statement.executeQuery();
+
+            if (resultSet.next()) {
+                String hashedPassword = resultSet.getString("password");
+                if (BCrypt.checkpw(password, hashedPassword)) {
+                    Agent agent = new Agent(resultSet.getString("username"));
+                    agent.setId(UUID.fromString(resultSet.getString("id")));
+                    return agent;
+                }
+            }
+        } catch (SQLException e) {
+            System.out.println("Error Repo " + e);
+            logger.error(e);
+        }
+
+        return null;
+    }
+
 }

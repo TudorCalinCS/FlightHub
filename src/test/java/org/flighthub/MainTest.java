@@ -11,6 +11,7 @@ import org.flighthub.Utils.JdbcUtils;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
@@ -35,7 +36,7 @@ class MainTest {
         logger.info("Testing AgentRepository");
         AgentRepository agentRepository=new AgentRepository(jdbcUtils);
         Agent agent = new Agent("agent1");
-        agentRepository.save(agent);
+        agentRepository.save(agent,"password");
         List<Agent> agentList = (List<Agent>) agentRepository.findAll();
         assertEquals(agentList.size(), 1);
 
@@ -67,5 +68,21 @@ class MainTest {
         jdbcUtils.getConnection().prepareStatement("DELETE FROM Agent").executeUpdate();
 
         logger.info("Tests finished");
+    }
+    @Test
+    void shortTest() throws IOException, SQLException {
+        Properties props = new Properties();
+        props.load(new FileInputStream("src/main/java/org/flighthub/jdbc.properties"));
+        JdbcUtils jdbcUtils = new JdbcUtils(props);
+
+        logger.info("Testing AgentRepository");
+        AgentRepository agentRepository=new AgentRepository(jdbcUtils);
+        Agent agent = new Agent("agent1");
+        agentRepository.save(agent,"password");
+        List<Agent> agentList = (List<Agent>) agentRepository.findAll();
+        assertEquals(agentList.size(), 1);
+
+        jdbcUtils.getConnection().prepareStatement("DELETE FROM Agent").executeUpdate();
+
     }
 }

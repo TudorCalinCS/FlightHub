@@ -5,7 +5,7 @@ import org.flighthub.Domain.Client;
 import java.util.Optional;
 import java.util.UUID;
 
-public interface IClientRepository {
+public interface IClientRepository extends Repository<UUID, Client> {
     Optional<Client> findOne(UUID id);
 
     Iterable<Client> findAll();

@@ -18,6 +18,8 @@ dependencies {
     implementation 'com.microsoft.sqlserver:mssql-jdbc:12.6.1.jre11'
 
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+    //hash pw
+    implementation 'org.mindrot:jbcrypt:0.4'
 
 }
 

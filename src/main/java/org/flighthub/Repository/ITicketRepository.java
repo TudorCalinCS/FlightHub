@@ -5,7 +5,7 @@ import org.flighthub.Domain.Ticket;
 import java.util.Optional;
 import java.util.UUID;
 
-public interface ITicketRepository {
+public interface ITicketRepository extends Repository<UUID, Ticket>{
     Optional<Ticket> findOne(UUID id);
 
     Iterable<Ticket> findAll();

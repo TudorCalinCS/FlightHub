@@ -5,6 +5,7 @@ go
 CREATE TABLE Agent (
     id UNIQUEIDENTIFIER PRIMARY KEY,
     username NVARCHAR(255) NOT NULL
+	password NVARCHAR(255)
 );
 
 CREATE TABLE Client (
@@ -29,3 +30,4 @@ CREATE TABLE Ticket (
     FOREIGN KEY (clientId) REFERENCES Client(id),
     FOREIGN KEY (flightId) REFERENCES Flight(id)
 );
+

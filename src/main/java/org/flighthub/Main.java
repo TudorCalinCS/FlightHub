@@ -3,7 +3,6 @@ package org.flighthub;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.flighthub.Utils.JdbcUtils;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;

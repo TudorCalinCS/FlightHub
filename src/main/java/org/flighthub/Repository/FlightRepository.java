@@ -5,10 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.flighthub.Domain.Flight;
 import org.flighthub.Utils.JdbcUtils;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,6 +45,34 @@ public class FlightRepository implements IFlightRepository {
         }
 
         return Optional.empty();
+    }
+    @Override
+    public Iterable<Flight> findByDestinationAndDepartureDate(String destination, LocalDateTime departureDate) {
+        List<Flight> flights = new ArrayList<>();
+
+        try {
+            logger.traceEntry();
+            logger.info("trying to find flights by destination and departure date");
+            Connection connection = JDBCconnection.getConnection();
+            String query = "SELECT * FROM Flight WHERE destination = ? AND dateTime = ?";
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setString(1, destination);
+            statement.setTimestamp(2, Timestamp.valueOf(departureDate));
+            ResultSet resultSet = statement.executeQuery();
+
+            while (resultSet.next()) {
+                Flight flight = new Flight(resultSet.getString("destination"),
+                        resultSet.getTimestamp("dateTime").toLocalDateTime(),
+                        resultSet.getInt("availableSeats"));
+                flight.setId(UUID.fromString(resultSet.getString("id")));
+                flights.add(flight);
+            }
+        } catch (SQLException e) {
+            System.out.println("Error Repo " + e);
+            logger.error(e);
+        }
+
+        return flights;
     }
 
     @Override
