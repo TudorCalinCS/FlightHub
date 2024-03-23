@@ -1,0 +1,10 @@
+module FlightHub.main {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires java.sql;
+    requires org.apache.logging.log4j;
+    requires jbcrypt;
+
+    opens org.flighthub to javafx.fxml;
+    exports org.flighthub;
+}
