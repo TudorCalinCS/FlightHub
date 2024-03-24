@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.flighthub.Domain.Client;
 import org.flighthub.Domain.Flight;
 import org.flighthub.Domain.Ticket;
+import org.flighthub.Domain.Tourist;
 import org.flighthub.Utils.JdbcUtils;
 import org.flighthub.Repository.*;
 import java.sql.Connection;
@@ -13,7 +14,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.*;
-
+import org.flighthub.Domain.Tourist;
 public class TicketRepository implements ITicketRepository {
     private final JdbcUtils JDBCconnection;
 
@@ -41,9 +42,31 @@ public class TicketRepository implements ITicketRepository {
                 FlightRepository flightRepository = new FlightRepository(JDBCconnection);
                 Optional<Flight> flight = flightRepository.findOne(UUID.fromString(resultSet.getString("flightId")));
                 Flight flight1 = flight.orElse(null);
-                String[] touristsArray = resultSet.getString("touristsName").split(",");
+
+                // Extrageți lista de id-uri ale turiștilor din tabela de asociere Ticket_Tourist
+                String queryTourists = "SELECT tourist_id FROM Ticket_Tourist WHERE ticket_id = ?";
+                PreparedStatement statementTourists = connection.prepareStatement(queryTourists);
+                statementTourists.setString(1, id.toString());
+                ResultSet resultSetTourists = statementTourists.executeQuery();
+
+                List<Tourist> touristList=new ArrayList<>();
+                while (resultSetTourists.next()) {
+                    // Pentru fiecare id de turist, găsiți numele corespunzător în tabela Tourist
+                    String queryTouristName = "SELECT name FROM Tourist WHERE id = ?";
+                    PreparedStatement statementTouristName = connection.prepareStatement(queryTouristName);
+                    statementTouristName.setString(1, resultSetTourists.getString("tourist_id"));
+                    ResultSet resultSetTouristName = statementTouristName.executeQuery();
+
+                    if (resultSetTouristName.next()) {
+                        Tourist tourist=new Tourist(resultSetTouristName.getString("name"));
+                        tourist.setId(UUID.fromString(queryTourists));
+                        touristList.add(tourist);
+                    }
+                }
+
+
                 int seats = resultSet.getInt("seats");
-                Ticket ticket = new Ticket(client1, touristsArray, flight1, seats);
+                Ticket ticket = new Ticket(client1, touristList, flight1, seats);
                 ticket.setId(UUID.fromString(resultSet.getString("id")));
                 return Optional.of(ticket);
             }
@@ -54,6 +77,7 @@ public class TicketRepository implements ITicketRepository {
 
         return Optional.empty();
     }
+
 
     @Override
     public Iterable<Ticket> findAll() {
@@ -74,9 +98,30 @@ public class TicketRepository implements ITicketRepository {
                 FlightRepository flightRepository = new FlightRepository(JDBCconnection);
                 Optional<Flight> flight = flightRepository.findOne(UUID.fromString(resultSet.getString("flightId")));
                 Flight flight1 = flight.orElse(null);
-                String[] touristsArray = resultSet.getString("touristsName").split(",");
+                /// Extrageți lista de id-uri ale turiștilor din tabela de asociere Ticket_Tourist
+                String queryTourists = "SELECT tourist_id FROM Ticket_Tourist WHERE ticket_id = ?";
+                PreparedStatement statementTourists = connection.prepareStatement(queryTourists);
+                statementTourists.setString(1, resultSet.getString("id"));
+                ResultSet resultSetTourists = statementTourists.executeQuery();
+
+                List<Tourist> touristList=new ArrayList<>();
+                while (resultSetTourists.next()) {
+                    // Pentru fiecare id de turist, găsiți numele corespunzător în tabela Tourist
+                    String queryTouristName = "SELECT name FROM Tourist WHERE id = ?";
+                    PreparedStatement statementTouristName = connection.prepareStatement(queryTouristName);
+                    statementTouristName.setString(1, resultSetTourists.getString("tourist_id"));
+                    ResultSet resultSetTouristName = statementTouristName.executeQuery();
+
+                    if (resultSetTouristName.next()) {
+                        Tourist tourist=new Tourist(resultSetTouristName.getString("name"));
+                        //tourist.setId(UUID.fromString(queryTourists));
+                        tourist.setId(UUID.fromString(resultSetTourists.getString("tourist_id")));
+                        touristList.add(tourist);
+                    }
+                }
+
                 int seats = resultSet.getInt("seats");
-                Ticket ticket = new Ticket(client1, touristsArray, flight1, seats);
+                Ticket ticket = new Ticket(client1, touristList, flight1, seats);
                 ticket.setId(UUID.fromString(resultSet.getString("id")));
                 tickets.add(ticket);
             }
@@ -95,14 +140,31 @@ public class TicketRepository implements ITicketRepository {
             logger.traceEntry();
             logger.info("trying to save one Ticket");
             Connection connection = JDBCconnection.getConnection();
-            String query = "INSERT INTO Ticket (id, clientId, touristsName, flightId,seats) VALUES (?, ?, ?, ?, ?)";
+            String query = "INSERT INTO Ticket (id, clientId, flightId, seats) VALUES (?, ?, ?, ?)";
             PreparedStatement statement = connection.prepareStatement(query);
-            statement.setString(1, UUID.randomUUID().toString());
+            UUID ticketId = UUID.randomUUID(); // Generați un id unic pentru bilet
+            statement.setString(1, ticketId.toString());
             statement.setString(2, entity.getClient().getId().toString());
-            statement.setString(3, String.join(",", entity.getTouristsName()));
-            statement.setString(4, entity.getFlight().getId().toString());
-            statement.setInt(5, entity.getSeats());
+            statement.setString(3, entity.getFlight().getId().toString());
+            statement.setInt(4, entity.getSeats());
+            entity.setId(ticketId); // Setează id-ul biletului cu id-ul generat
             statement.executeUpdate();
+
+            // Salvare asociere turisti-bilet
+            for (Tourist tourist : entity.getTouristList()) {
+                String insertQuery = "INSERT INTO Ticket_Tourist (ticket_id, tourist_id) VALUES (?, ?)";
+                PreparedStatement insertStatement = connection.prepareStatement(insertQuery);
+                insertStatement.setString(1, ticketId.toString());
+                insertStatement.setString(2, tourist.getId().toString());
+                insertStatement.executeUpdate();
+            }
+            FlightRepository flightRepository = new FlightRepository(JDBCconnection);
+            Optional<Flight> optionalFlight = flightRepository.findOne(entity.getFlight().getId());
+            if (optionalFlight.isPresent()) {
+                Flight flight = optionalFlight.get();
+                int newAvailableSeats = flight.getAvailableSeats() - entity.getSeats();
+                flightRepository.updateAvailableSeats(flight.getId(), newAvailableSeats);
+            }
         } catch (SQLException e) {
             System.out.println("Error Repo " + e);
             logger.error(e);
@@ -110,6 +172,7 @@ public class TicketRepository implements ITicketRepository {
 
         return entity;
     }
+
 
     @Override
     public Optional<Ticket> delete(UUID id) {
@@ -142,13 +205,12 @@ public class TicketRepository implements ITicketRepository {
                 logger.traceEntry();
                 logger.info("trying to update one Ticket");
                 Connection connection = JDBCconnection.getConnection();
-                String query = "UPDATE Ticket SET clientId = ?, touristsName = ?, flightId = ?, seats = ? WHERE id = ?";
+                String query = "UPDATE Ticket SET clientId = ?,  flightId = ?, seats = ? WHERE id = ?";
                 PreparedStatement statement = connection.prepareStatement(query);
                 statement.setString(1, entity.getClient().getId().toString());
-                statement.setString(2, String.join(",", entity.getTouristsName()));
-                statement.setString(3, entity.getFlight().getId().toString());
-                statement.setObject(4, entity.getSeats());
-                statement.setString(5, entity.getId().toString());
+                statement.setString(2, entity.getFlight().getId().toString());
+                statement.setObject(3, entity.getSeats());
+                statement.setString(4, entity.getId().toString());
                 statement.executeUpdate();
             } catch (SQLException e) {
                 System.out.println("Error Repo " + e);

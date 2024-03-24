@@ -34,11 +34,11 @@ public class StartApplication extends Application {
         ClientRepository clientRepository = new ClientRepository(jdbcUtils);
         FlightRepository flightRepository = new FlightRepository(jdbcUtils);
         TicketRepository ticketRepository = new TicketRepository(jdbcUtils);
+        TouristRepository touristRepository=new TouristRepository(jdbcUtils);
 
+        Service service = new Service(agentRepository,clientRepository,flightRepository,ticketRepository,touristRepository);
 
-        Service service = new Service(agentRepository,clientRepository,flightRepository,ticketRepository);
-
-        //service.saveAgent("username","password");
+        //service.addEntities();
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/login-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         LoginController loginController = fxmlLoader.getController();

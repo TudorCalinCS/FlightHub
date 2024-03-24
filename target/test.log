@@ -735,3 +735,1339 @@
 23 Mar 2024 17:35:20,962 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
 23 Mar 2024 17:35:20,984 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
 23 Mar 2024 17:35:21,570 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 8744861d-07a1-40d0-a5e8-a3ecbeb25a1e)
+23 Mar 2024 18:03:51,052 TRACE org.flighthub.StartApplication 28 start - Enter
+23 Mar 2024 18:04:00,134 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+23 Mar 2024 18:04:00,134 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+23 Mar 2024 18:04:00,135 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 18:04:00,135 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 18:04:00,146 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 18:04:00,816 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 71960700-861c-4aba-a78d-ea584c9a0f95)
+23 Mar 2024 18:06:04,669 TRACE org.flighthub.StartApplication 28 start - Enter
+23 Mar 2024 19:12:06,373 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:12:06,382 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:12:06,387 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:12:06,388 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:12:06,388 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:06,388 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:12:06,408 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:12:06,805 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:12:06,937 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:12:06,938 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:12:06,938 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:06,938 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:12:06,975 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:12:06,978 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:12:06,979 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:12:06,979 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:06,979 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:12:06,986 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:12:06,986 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:12:06,987 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:06,987 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:12:06,990 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:12:06,994 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:12:06,995 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:12:06,995 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:06,995 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:12:07,009 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:12:07,009 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:12:07,009 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:07,009 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:12:07,014 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:12:07,018 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:12:07,018 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:12:07,019 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:07,019 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:12:07,026 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:12:07,029 TRACE org.flighthub.Repository.TicketRepository 139 save - Enter
+23 Mar 2024 19:12:07,030 INFO  org.flighthub.Repository.TicketRepository 140 save - trying to save one Ticket
+23 Mar 2024 19:12:07,030 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:12:07,030 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b8572c9f-7429-42f6-bb4f-b840c1f1c5fe)
+23 Mar 2024 19:14:39,244 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:14:39,253 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:14:39,256 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:14:39,257 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:14:39,257 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:14:39,257 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:14:39,274 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:14:39,629 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 85c93571-13aa-4968-87de-4e7998cf3eeb)
+23 Mar 2024 19:14:39,759 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:14:39,759 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:14:39,759 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:14:39,759 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 85c93571-13aa-4968-87de-4e7998cf3eeb)
+23 Mar 2024 19:15:42,798 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:15:42,798 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:15:42,814 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:15:42,814 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:15:42,814 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:42,814 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:15:42,830 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:15:43,161 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:15:43,286 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:15:43,286 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:15:43,286 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:43,286 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:15:43,320 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:15:43,320 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:15:43,320 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:15:43,320 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:43,320 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:15:43,320 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:15:43,334 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:15:43,334 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:43,334 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:15:43,334 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:15:43,334 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:15:43,334 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:15:43,334 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:43,334 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:15:43,349 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:15:43,349 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:15:43,349 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:43,349 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:15:43,349 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:15:43,349 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:15:43,349 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:15:43,349 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:43,349 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:15:43,349 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:15:43,366 TRACE org.flighthub.Repository.TicketRepository 139 save - Enter
+23 Mar 2024 19:15:43,366 INFO  org.flighthub.Repository.TicketRepository 140 save - trying to save one Ticket
+23 Mar 2024 19:15:43,366 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:15:43,366 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b17f9ebf-5b06-4101-82ec-2edbdb6f33e6)
+23 Mar 2024 19:16:51,568 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:16:51,576 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:16:51,581 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:16:51,581 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:16:51,581 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:51,582 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:16:51,598 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:16:51,926 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,056 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:16:52,056 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:16:52,056 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,057 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,088 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:16:52,091 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:16:52,092 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:16:52,092 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,093 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,096 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:16:52,096 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:16:52,097 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,097 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,099 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:16:52,102 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:16:52,103 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:16:52,103 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,103 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,110 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:16:52,111 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:16:52,111 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,111 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,113 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:16:52,117 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:16:52,117 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:16:52,117 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,118 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,120 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:16:52,124 TRACE org.flighthub.Repository.TicketRepository 139 save - Enter
+23 Mar 2024 19:16:52,125 INFO  org.flighthub.Repository.TicketRepository 140 save - trying to save one Ticket
+23 Mar 2024 19:16:52,125 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,125 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:16:52,160 ERROR org.flighthub.Repository.TicketRepository 160 save - com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Ticket_To__ticke__5165187F". The conflict occurred in database "FlightHub", table "dbo.Ticket", column 'id'.
+23 Mar 2024 19:16:52,160 TRACE org.flighthub.Repository.TicketRepository 87 findAll - Enter
+23 Mar 2024 19:16:52,161 INFO  org.flighthub.Repository.TicketRepository 88 findAll - trying to find multiple Tickets
+23 Mar 2024 19:16:52,161 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:16:52,161 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 1536783d-29d9-4b17-a4ca-674cdca8bf2a)
+23 Mar 2024 19:17:43,914 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:17:43,921 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:17:43,925 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:17:43,925 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:17:43,925 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:43,926 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:17:43,941 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:17:44,250 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,367 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:17:44,367 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:17:44,367 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,368 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,410 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:17:44,414 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:17:44,414 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:17:44,415 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,415 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,419 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:17:44,420 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:17:44,420 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,420 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,424 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:17:44,429 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:17:44,430 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:17:44,430 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,430 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,441 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:17:44,441 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:17:44,442 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,442 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,445 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:17:44,449 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:17:44,449 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:17:44,449 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,450 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,454 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:17:44,458 TRACE org.flighthub.Repository.TicketRepository 139 save - Enter
+23 Mar 2024 19:17:44,458 INFO  org.flighthub.Repository.TicketRepository 140 save - trying to save one Ticket
+23 Mar 2024 19:17:44,458 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,460 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:17:44,477 ERROR org.flighthub.Repository.TicketRepository 160 save - com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Ticket_To__ticke__5165187F". The conflict occurred in database "FlightHub", table "dbo.Ticket", column 'id'.
+23 Mar 2024 19:17:44,478 TRACE org.flighthub.Repository.TicketRepository 87 findAll - Enter
+23 Mar 2024 19:17:44,478 INFO  org.flighthub.Repository.TicketRepository 88 findAll - trying to find multiple Tickets
+23 Mar 2024 19:17:44,479 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:17:44,480 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: b388254c-2ac5-494b-96bd-a8d864d99613)
+23 Mar 2024 19:25:12,264 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:25:12,272 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:25:12,277 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:25:12,277 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:25:12,278 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,278 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:25:12,300 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:25:12,667 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,791 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:25:12,792 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:25:12,792 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,793 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,818 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:25:12,821 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:25:12,821 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:25:12,821 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,822 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,827 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:25:12,827 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:25:12,827 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,828 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,829 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:25:12,833 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:25:12,833 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:25:12,833 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,833 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,841 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:25:12,841 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:25:12,841 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,842 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,843 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:25:12,846 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:25:12,846 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:25:12,847 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,847 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,849 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:25:12,852 TRACE org.flighthub.Repository.TicketRepository 139 save - Enter
+23 Mar 2024 19:25:12,852 INFO  org.flighthub.Repository.TicketRepository 140 save - trying to save one Ticket
+23 Mar 2024 19:25:12,852 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,852 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,859 TRACE org.flighthub.Repository.TicketRepository 87 findAll - Enter
+23 Mar 2024 19:25:12,859 INFO  org.flighthub.Repository.TicketRepository 88 findAll - trying to find multiple Tickets
+23 Mar 2024 19:25:12,860 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,860 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,861 TRACE org.flighthub.Repository.ClientRepository 29 findOne - Enter
+23 Mar 2024 19:25:12,862 INFO  org.flighthub.Repository.ClientRepository 30 findOne - trying to find one Client
+23 Mar 2024 19:25:12,862 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,862 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,864 TRACE org.flighthub.Repository.FlightRepository 27 findOne - Enter
+23 Mar 2024 19:25:12,865 INFO  org.flighthub.Repository.FlightRepository 28 findOne - trying to find one Flight
+23 Mar 2024 19:25:12,865 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:25:12,865 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e3dee207-2a6f-4be9-b424-a75df2b7f5e2)
+23 Mar 2024 19:25:12,895 ERROR org.flighthub.Repository.TicketRepository 129 findAll - com.microsoft.sqlserver.jdbc.SQLServerException: An error occurred during the current command (Done status 0). Conversion failed when converting from a character string to uniqueidentifier.
+23 Mar 2024 19:28:51,799 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:28:51,810 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:28:51,818 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:28:51,818 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:28:51,819 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:28:51,820 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:28:51,846 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:28:52,242 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0466d32d-22ae-4cec-a08d-452559544ab9)
+23 Mar 2024 19:28:52,373 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:28:52,374 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:28:52,374 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:28:52,374 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0466d32d-22ae-4cec-a08d-452559544ab9)
+23 Mar 2024 19:28:52,412 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:28:52,416 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:28:52,416 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:28:52,416 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:28:52,417 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0466d32d-22ae-4cec-a08d-452559544ab9)
+23 Mar 2024 19:28:52,420 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:28:52,421 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:28:52,421 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:28:52,421 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0466d32d-22ae-4cec-a08d-452559544ab9)
+23 Mar 2024 19:30:00,990 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:30:00,990 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:30:01,006 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:30:01,006 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:30:01,006 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,006 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:30:01,022 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:30:01,321 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,447 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:30:01,447 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:30:01,447 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,447 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,463 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:30:01,479 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:30:01,479 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,479 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:30:01,479 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,479 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,495 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:30:01,495 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:30:01,495 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,495 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,495 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:30:01,495 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:30:01,495 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:30:01,495 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,495 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,495 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Repository.TicketRepository 139 save - Enter
+23 Mar 2024 19:30:01,510 INFO  org.flighthub.Repository.TicketRepository 140 save - trying to save one Ticket
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Repository.TicketRepository 87 findAll - Enter
+23 Mar 2024 19:30:01,510 INFO  org.flighthub.Repository.TicketRepository 88 findAll - trying to find multiple Tickets
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Repository.ClientRepository 29 findOne - Enter
+23 Mar 2024 19:30:01,510 INFO  org.flighthub.Repository.ClientRepository 30 findOne - trying to find one Client
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Repository.FlightRepository 27 findOne - Enter
+23 Mar 2024 19:30:01,510 INFO  org.flighthub.Repository.FlightRepository 28 findOne - trying to find one Flight
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:30:01,510 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ebb73d02-be36-4003-860a-5be43b61a558)
+23 Mar 2024 19:34:24,875 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:34:24,891 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:34:24,891 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:34:24,891 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:34:24,891 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:24,891 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:34:24,923 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:34:25,286 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,411 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:34:25,411 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:34:25,411 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,411 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,443 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:34:25,443 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:34:25,443 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:34:25,443 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,443 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,459 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:34:25,459 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:34:25,459 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,460 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,462 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:34:25,462 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:34:25,462 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:34:25,462 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,462 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,476 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:34:25,476 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:34:25,476 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,476 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,476 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:34:25,483 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:34:25,483 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:34:25,483 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,483 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,491 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:34:25,495 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+23 Mar 2024 19:34:25,495 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+23 Mar 2024 19:34:25,495 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,495 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,497 TRACE org.flighthub.Repository.TicketRepository 87 findAll - Enter
+23 Mar 2024 19:34:25,506 INFO  org.flighthub.Repository.TicketRepository 88 findAll - trying to find multiple Tickets
+23 Mar 2024 19:34:25,506 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,506 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,507 TRACE org.flighthub.Repository.ClientRepository 29 findOne - Enter
+23 Mar 2024 19:34:25,507 INFO  org.flighthub.Repository.ClientRepository 30 findOne - trying to find one Client
+23 Mar 2024 19:34:25,507 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,507 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,512 TRACE org.flighthub.Repository.FlightRepository 27 findOne - Enter
+23 Mar 2024 19:34:25,512 INFO  org.flighthub.Repository.FlightRepository 28 findOne - trying to find one Flight
+23 Mar 2024 19:34:25,512 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,512 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:34:25,522 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:34:25,523 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 67c7b273-43da-478f-ac00-6bbc1d4dc149)
+23 Mar 2024 19:35:11,168 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+23 Mar 2024 19:35:11,175 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+23 Mar 2024 19:35:11,179 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+23 Mar 2024 19:35:11,180 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+23 Mar 2024 19:35:11,180 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,180 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+23 Mar 2024 19:35:11,197 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+23 Mar 2024 19:35:11,528 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,679 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+23 Mar 2024 19:35:11,679 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+23 Mar 2024 19:35:11,679 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,680 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,719 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+23 Mar 2024 19:35:11,723 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+23 Mar 2024 19:35:11,723 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+23 Mar 2024 19:35:11,723 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,724 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,728 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+23 Mar 2024 19:35:11,728 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+23 Mar 2024 19:35:11,729 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,729 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,731 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+23 Mar 2024 19:35:11,737 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+23 Mar 2024 19:35:11,737 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+23 Mar 2024 19:35:11,738 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,738 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,749 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+23 Mar 2024 19:35:11,750 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+23 Mar 2024 19:35:11,750 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,750 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,753 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+23 Mar 2024 19:35:11,757 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+23 Mar 2024 19:35:11,758 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+23 Mar 2024 19:35:11,758 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,758 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,762 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+23 Mar 2024 19:35:11,766 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+23 Mar 2024 19:35:11,766 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+23 Mar 2024 19:35:11,766 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,767 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,777 TRACE org.flighthub.Repository.TicketRepository 87 findAll - Enter
+23 Mar 2024 19:35:11,778 INFO  org.flighthub.Repository.TicketRepository 88 findAll - trying to find multiple Tickets
+23 Mar 2024 19:35:11,778 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,778 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,781 TRACE org.flighthub.Repository.ClientRepository 29 findOne - Enter
+23 Mar 2024 19:35:11,781 INFO  org.flighthub.Repository.ClientRepository 30 findOne - trying to find one Client
+23 Mar 2024 19:35:11,782 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,782 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,785 TRACE org.flighthub.Repository.FlightRepository 27 findOne - Enter
+23 Mar 2024 19:35:11,786 INFO  org.flighthub.Repository.FlightRepository 28 findOne - trying to find one Flight
+23 Mar 2024 19:35:11,786 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,786 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,795 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,795 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,799 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,800 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,803 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,804 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,808 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,808 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,812 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,812 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,815 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+23 Mar 2024 19:35:11,815 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0a129304-9b44-4850-8a6a-308e688ce333)
+23 Mar 2024 19:35:11,819 INFO  org.flighthub.MainTest 80 testRepositories - Tests finished
+24 Mar 2024 13:01:55,858 TRACE org.flighthub.MainTest 31 testRepositories - Enter
+24 Mar 2024 13:01:55,870 INFO  org.flighthub.MainTest 37 testRepositories - Testing AgentRepository
+24 Mar 2024 13:01:55,880 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 13:01:55,880 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 13:01:55,881 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:55,881 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:01:55,907 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:01:56,673 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,838 TRACE org.flighthub.Repository.AgentRepository 83 findAll - Enter
+24 Mar 2024 13:01:56,838 INFO  org.flighthub.Repository.AgentRepository 84 findAll - trying to find multiple Agents
+24 Mar 2024 13:01:56,838 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,838 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,885 INFO  org.flighthub.MainTest 44 testRepositories - Testing ClientRepository
+24 Mar 2024 13:01:56,891 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 13:01:56,892 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 13:01:56,892 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,892 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,900 TRACE org.flighthub.Repository.ClientRepository 55 findAll - Enter
+24 Mar 2024 13:01:56,901 INFO  org.flighthub.Repository.ClientRepository 56 findAll - trying to find multiple Clients
+24 Mar 2024 13:01:56,901 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,901 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,906 INFO  org.flighthub.MainTest 51 testRepositories - Testing FlightRepository
+24 Mar 2024 13:01:56,914 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+24 Mar 2024 13:01:56,915 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+24 Mar 2024 13:01:56,915 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,915 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,930 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+24 Mar 2024 13:01:56,931 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+24 Mar 2024 13:01:56,931 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,931 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,934 INFO  org.flighthub.MainTest 58 testRepositories - Testing TouristRepository
+24 Mar 2024 13:01:56,940 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 13:01:56,940 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 13:01:56,940 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,941 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,946 INFO  org.flighthub.MainTest 66 testRepositories - Testing TicketRepository
+24 Mar 2024 13:01:56,951 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 13:01:56,952 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 13:01:56,952 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,952 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,967 TRACE org.flighthub.Repository.TicketRepository 87 findAll - Enter
+24 Mar 2024 13:01:56,967 INFO  org.flighthub.Repository.TicketRepository 88 findAll - trying to find multiple Tickets
+24 Mar 2024 13:01:56,968 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,968 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,972 TRACE org.flighthub.Repository.ClientRepository 29 findOne - Enter
+24 Mar 2024 13:01:56,972 INFO  org.flighthub.Repository.ClientRepository 30 findOne - trying to find one Client
+24 Mar 2024 13:01:56,972 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,973 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,979 TRACE org.flighthub.Repository.FlightRepository 27 findOne - Enter
+24 Mar 2024 13:01:56,979 INFO  org.flighthub.Repository.FlightRepository 28 findOne - trying to find one Flight
+24 Mar 2024 13:01:56,979 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,980 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,994 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,994 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:56,997 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:56,998 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:57,006 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:57,007 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:57,010 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:57,011 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:57,016 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:57,016 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:57,018 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:01:57,018 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fd73dbcb-ea1e-4c69-804f-ed5a00d5ed75)
+24 Mar 2024 13:01:57,022 INFO  org.flighthub.MainTest 80 testRepositories - Tests finished
+24 Mar 2024 13:02:05,771 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:02:13,660 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:02:13,660 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:02:13,661 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:02:13,661 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:02:13,675 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:02:15,003 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00f94b8d-7aa2-40e9-a229-9fd833240fd1)
+24 Mar 2024 13:02:29,766 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:02:29,786 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 13:02:29,786 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 13:02:29,786 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:02:29,787 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:02:29,798 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:02:30,324 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75d2cd72-3436-4185-9da6-93c2e924e1eb)
+24 Mar 2024 13:02:36,345 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:02:36,345 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:02:36,346 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:02:36,346 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75d2cd72-3436-4185-9da6-93c2e924e1eb)
+24 Mar 2024 13:11:04,184 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:11:10,902 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:11:10,902 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:11:10,903 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:11:10,903 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:11:10,929 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:11:11,511 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: ccd003cd-f3c5-4367-9c13-1d52fd2ef3e4)
+24 Mar 2024 13:26:33,013 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:26:40,356 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:26:40,356 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:26:40,356 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:26:40,357 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:26:40,383 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:26:41,056 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 59d1d493-fe45-4068-8289-0e1a794ce3d3)
+24 Mar 2024 13:41:42,699 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:41:48,981 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:41:48,982 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:41:48,983 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:41:48,983 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:41:49,006 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:41:49,618 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: fa8f47e2-3570-4aee-bffd-ed3d7121b841)
+24 Mar 2024 13:42:18,318 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:42:24,411 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:42:24,412 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:42:24,413 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:42:24,413 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:42:24,425 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:42:24,928 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: f815f012-c4b3-4437-9986-557738918e54)
+24 Mar 2024 13:42:25,127 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+24 Mar 2024 13:42:25,127 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+24 Mar 2024 13:42:25,127 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:42:25,128 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: f815f012-c4b3-4437-9986-557738918e54)
+24 Mar 2024 13:44:48,222 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:44:53,897 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:44:53,897 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:44:53,897 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:44:53,898 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:44:53,909 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:44:54,475 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 8f077cbf-565f-41b1-b004-aa0238c7d697)
+24 Mar 2024 13:44:54,697 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+24 Mar 2024 13:44:54,697 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+24 Mar 2024 13:44:54,698 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:44:54,698 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 8f077cbf-565f-41b1-b004-aa0238c7d697)
+24 Mar 2024 13:57:14,831 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 13:57:14,845 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 13:57:14,845 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 13:57:14,845 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:57:14,846 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 13:57:14,855 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 13:57:15,619 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9b4c2e0c-c05a-4168-acd6-c79e61c35e76)
+24 Mar 2024 13:57:15,784 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 13:57:15,784 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 13:57:15,784 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:57:15,784 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9b4c2e0c-c05a-4168-acd6-c79e61c35e76)
+24 Mar 2024 13:57:15,789 TRACE org.flighthub.Repository.FlightRepository 108 save - Enter
+24 Mar 2024 13:57:15,789 INFO  org.flighthub.Repository.FlightRepository 109 save - trying to save one Flight
+24 Mar 2024 13:57:15,790 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:57:15,790 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9b4c2e0c-c05a-4168-acd6-c79e61c35e76)
+24 Mar 2024 13:57:15,801 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 13:57:15,802 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 13:57:15,802 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:57:15,802 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9b4c2e0c-c05a-4168-acd6-c79e61c35e76)
+24 Mar 2024 13:57:15,805 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 13:57:15,805 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 13:57:15,806 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:57:15,806 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9b4c2e0c-c05a-4168-acd6-c79e61c35e76)
+24 Mar 2024 13:57:23,411 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 13:57:23,411 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 13:57:23,411 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:57:23,412 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9b4c2e0c-c05a-4168-acd6-c79e61c35e76)
+24 Mar 2024 13:57:23,554 TRACE org.flighthub.Repository.FlightRepository 83 findAll - Enter
+24 Mar 2024 13:57:23,554 INFO  org.flighthub.Repository.FlightRepository 84 findAll - trying to find multiple Flights
+24 Mar 2024 13:57:23,554 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 13:57:23,554 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 9b4c2e0c-c05a-4168-acd6-c79e61c35e76)
+24 Mar 2024 14:22:54,546 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 14:22:54,563 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 14:22:54,564 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 14:22:54,564 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:22:54,564 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 14:22:54,575 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 14:22:55,172 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 45f8ba9e-5cdc-48c2-8da3-06a30e98147a)
+24 Mar 2024 14:22:55,308 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 14:22:55,309 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 14:22:55,309 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:22:55,309 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 45f8ba9e-5cdc-48c2-8da3-06a30e98147a)
+24 Mar 2024 14:22:55,313 TRACE org.flighthub.Repository.FlightRepository 112 save - Enter
+24 Mar 2024 14:22:55,313 INFO  org.flighthub.Repository.FlightRepository 113 save - trying to save one Flight
+24 Mar 2024 14:22:55,313 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:22:55,313 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 45f8ba9e-5cdc-48c2-8da3-06a30e98147a)
+24 Mar 2024 14:22:55,327 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 14:22:55,328 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 14:22:55,328 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:22:55,328 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 45f8ba9e-5cdc-48c2-8da3-06a30e98147a)
+24 Mar 2024 14:22:55,332 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 14:22:55,332 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 14:22:55,332 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:22:55,332 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 45f8ba9e-5cdc-48c2-8da3-06a30e98147a)
+24 Mar 2024 14:23:03,503 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 14:23:03,503 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 14:23:03,503 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:23:03,503 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 45f8ba9e-5cdc-48c2-8da3-06a30e98147a)
+24 Mar 2024 14:23:03,679 TRACE org.flighthub.Repository.FlightRepository 87 findAll - Enter
+24 Mar 2024 14:23:03,679 INFO  org.flighthub.Repository.FlightRepository 88 findAll - trying to find multiple Flights
+24 Mar 2024 14:23:03,679 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:23:03,679 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 45f8ba9e-5cdc-48c2-8da3-06a30e98147a)
+24 Mar 2024 14:25:40,176 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 14:25:40,188 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 14:25:40,188 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 14:25:40,188 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:25:40,189 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 14:25:40,196 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 14:25:40,649 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:25:40,796 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 14:25:40,796 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 14:25:40,796 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:25:40,797 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:25:40,802 TRACE org.flighthub.Repository.FlightRepository 112 save - Enter
+24 Mar 2024 14:25:40,802 INFO  org.flighthub.Repository.FlightRepository 113 save - trying to save one Flight
+24 Mar 2024 14:25:40,802 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:25:40,802 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:25:40,817 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 14:25:40,817 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 14:25:40,817 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:25:40,817 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:25:40,821 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 14:25:40,821 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 14:25:40,822 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:25:40,822 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:25:48,791 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 14:25:48,791 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 14:25:48,791 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:25:48,791 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:25:48,940 TRACE org.flighthub.Repository.FlightRepository 87 findAll - Enter
+24 Mar 2024 14:25:48,940 INFO  org.flighthub.Repository.FlightRepository 88 findAll - trying to find multiple Flights
+24 Mar 2024 14:25:48,940 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:25:48,941 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:26:05,436 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 14:26:05,437 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 14:26:05,437 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:26:05,437 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 5c30d13a-a27e-4b23-a946-0d6ba00c7a93)
+24 Mar 2024 14:26:05,463 ERROR org.flighthub.Repository.FlightRepository 75 findByDestinationAndDepartureDate - com.microsoft.sqlserver.jdbc.SQLServerException: 'DATE' is not a recognized built-in function name.
+24 Mar 2024 14:28:25,120 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 14:28:25,138 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 14:28:25,138 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 14:28:25,138 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:25,138 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 14:28:25,147 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 14:28:25,652 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 14:28:25,803 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 14:28:25,804 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 14:28:25,804 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:25,804 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 14:28:25,809 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 14:28:25,809 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 14:28:25,810 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:25,810 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 14:28:25,825 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 14:28:25,825 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 14:28:25,825 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:25,826 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 14:28:25,830 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 14:28:25,830 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 14:28:25,830 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:25,831 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 14:28:33,504 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 14:28:33,505 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 14:28:33,505 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:33,505 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 14:28:33,649 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 14:28:33,649 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 14:28:33,649 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:33,650 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 14:28:43,329 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 14:28:43,330 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 14:28:43,330 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 14:28:43,330 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 44ee1309-d794-4447-a9ab-479e637dcc7d)
+24 Mar 2024 15:43:02,667 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 15:43:02,681 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 15:43:02,681 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 15:43:02,682 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:02,682 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 15:43:02,690 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 15:43:03,212 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:03,342 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 15:43:03,343 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 15:43:03,343 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:03,343 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:03,347 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:43:03,347 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:43:03,347 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:03,348 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:03,360 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 15:43:03,360 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 15:43:03,360 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:03,360 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:03,363 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 15:43:03,363 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 15:43:03,363 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:03,364 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:08,996 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 15:43:08,996 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 15:43:08,996 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:08,997 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:19,293 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 15:43:19,294 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 15:43:19,295 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:19,295 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:19,417 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 15:43:19,417 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 15:43:19,418 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:19,418 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:29,063 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 15:43:29,064 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 15:43:29,064 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:29,064 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:43:34,658 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 15:43:34,659 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 15:43:34,659 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:43:34,659 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: de636763-bee5-4aa2-b57b-c718a0bb3e10)
+24 Mar 2024 15:45:52,072 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 15:45:52,086 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 15:45:52,086 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 15:45:52,086 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,086 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 15:45:52,097 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 15:45:52,586 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,725 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 15:45:52,726 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 15:45:52,726 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,726 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,730 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 15:45:52,731 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 15:45:52,731 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,731 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,735 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,736 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,736 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,736 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,748 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,748 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,749 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,749 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,751 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,751 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,751 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,751 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,753 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,753 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,754 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,754 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,756 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,756 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,756 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,756 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,759 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,760 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,760 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,760 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,762 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,762 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,763 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,763 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,765 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 15:45:52,765 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 15:45:52,765 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,766 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,767 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 15:45:52,768 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 15:45:52,768 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,768 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:45:52,772 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 15:45:52,772 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 15:45:52,772 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:45:52,772 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:46:00,600 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 15:46:00,601 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 15:46:00,601 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:46:00,602 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:46:00,750 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 15:46:00,751 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 15:46:00,751 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:46:00,751 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 15:46:43,445 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 15:46:43,446 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 15:46:43,446 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 15:46:43,446 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 00ce136b-07ce-410a-806a-20b782512dfd)
+24 Mar 2024 16:18:02,472 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 16:18:02,499 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 16:18:02,499 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 16:18:02,499 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:02,500 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 16:18:02,518 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 16:18:03,070 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,205 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:18:03,205 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:18:03,205 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,206 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,209 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:18:03,209 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:18:03,209 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,210 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,212 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,212 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,212 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,212 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,223 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,223 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,223 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,224 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,226 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,226 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,226 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,226 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,229 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,229 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,229 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,229 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,231 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,231 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,231 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,232 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,233 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,233 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,233 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,234 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,235 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,235 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,235 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,235 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,237 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:18:03,237 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:18:03,237 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,238 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,239 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:18:03,240 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:18:03,240 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,240 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:18:03,244 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:18:03,244 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:18:03,244 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:18:03,244 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 24e0f339-ca44-4c1f-9866-516003dbd3dd)
+24 Mar 2024 16:23:49,952 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 16:23:49,964 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 16:23:49,965 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 16:23:49,965 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:49,965 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 16:23:49,972 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 16:23:50,389 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,517 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:23:50,518 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:23:50,518 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,518 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,521 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:23:50,522 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:23:50,522 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,522 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,525 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,525 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,525 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,526 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,536 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,537 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,537 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,537 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,538 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,538 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,538 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,538 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,541 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,541 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,541 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,541 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,543 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,543 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,543 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,543 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,544 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,544 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,545 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,545 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,546 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,546 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,547 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,547 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,548 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:23:50,548 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:23:50,548 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,548 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,550 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:23:50,550 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:23:50,550 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,550 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:50,554 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:23:50,554 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:23:50,554 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:50,555 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:58,053 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 16:23:58,054 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 16:23:58,054 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:58,054 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:23:58,206 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:23:58,207 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:23:58,207 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:23:58,207 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:24:18,983 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 16:24:18,984 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 16:24:18,984 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:24:18,984 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:24:38,623 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:24:38,623 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:24:38,623 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:24:38,624 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 75b5ab0d-a89d-49c0-9419-0f6f0f0c4a8e)
+24 Mar 2024 16:26:05,500 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 16:26:05,516 TRACE org.flighthub.Repository.AgentRepository 111 save - Enter
+24 Mar 2024 16:26:05,516 INFO  org.flighthub.Repository.AgentRepository 112 save - trying to save one Agent
+24 Mar 2024 16:26:05,517 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:05,517 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 16:26:05,527 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 16:26:05,919 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,046 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:26:06,048 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:26:06,048 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,048 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,051 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:26:06,051 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:26:06,051 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,051 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,053 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,054 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,054 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,054 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,064 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,064 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,064 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,064 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,066 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,066 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,066 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,066 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,068 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,068 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,068 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,069 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,070 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,070 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,071 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,071 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,073 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,074 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,074 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,074 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,076 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,076 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,076 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,076 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,078 TRACE org.flighthub.Repository.FlightRepository 113 save - Enter
+24 Mar 2024 16:26:06,078 INFO  org.flighthub.Repository.FlightRepository 114 save - trying to save one Flight
+24 Mar 2024 16:26:06,078 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,078 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,080 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:26:06,080 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:26:06,080 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,080 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:26:06,082 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:26:06,082 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:26:06,082 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:26:06,083 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: c865d577-a987-4ffd-bc3b-a9189a9b8535)
+24 Mar 2024 16:43:15,174 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 16:43:22,582 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 16:43:22,582 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 16:43:22,583 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:43:22,583 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 16:43:22,594 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 16:43:23,040 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:43:23,237 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:43:23,238 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:43:23,238 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:43:23,238 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:43:40,335 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 16:43:40,336 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 16:43:40,336 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:43:40,336 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:44:17,962 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:44:17,962 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:44:17,962 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:44:17,962 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:44:17,984 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:44:17,984 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:44:17,984 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:44:17,984 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:44:17,988 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 16:44:17,988 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 16:44:17,988 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:44:17,988 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:44:17,998 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 16:44:17,998 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 16:44:17,998 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:44:17,999 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:44:18,002 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 16:44:18,002 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 16:44:18,002 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:44:18,002 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:44:18,005 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:44:18,006 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:44:18,006 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:44:18,006 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 7578996a-fef6-413e-b1c6-5611c1161509)
+24 Mar 2024 16:47:23,182 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 16:47:30,993 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 16:47:30,993 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 16:47:30,994 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:47:30,994 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 16:47:31,006 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 16:47:31,395 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:47:31,587 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:47:31,588 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:47:31,588 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:47:31,588 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:47:52,012 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 16:47:52,013 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 16:47:52,013 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:47:52,013 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:48:19,747 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:48:19,748 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:48:19,748 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:48:19,748 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:48:19,764 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:48:19,765 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:48:19,765 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:48:19,765 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:48:19,768 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 16:48:19,768 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 16:48:19,769 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:48:19,769 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:48:19,776 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 16:48:19,776 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 16:48:19,776 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:48:19,776 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:48:19,779 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 16:48:19,779 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 16:48:19,779 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:48:19,779 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:48:19,782 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:48:19,782 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:48:19,782 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:48:19,782 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a94d2f6c-34e7-4eb9-9080-3f8c2d289586)
+24 Mar 2024 16:49:29,179 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 16:49:38,025 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 16:49:38,026 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 16:49:38,026 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:49:38,026 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 16:49:38,036 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 16:49:38,458 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:49:38,670 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:49:38,671 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:49:38,671 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:49:38,671 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:49:56,061 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 16:49:56,062 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 16:49:56,062 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:49:56,062 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:50:44,737 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 16:50:44,737 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 16:50:44,738 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:50:44,738 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:50:44,767 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 16:50:44,767 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 16:50:44,767 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:50:44,768 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:50:44,778 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 16:50:44,778 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 16:50:44,779 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:50:44,779 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:50:44,801 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 16:50:44,802 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 16:50:44,802 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:50:44,802 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:50:44,809 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 16:50:44,809 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 16:50:44,809 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:50:44,809 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:50:44,815 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 16:50:44,815 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 16:50:44,815 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:50:44,815 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 16:50:49,332 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 16:50:49,332 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 16:50:49,332 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 16:50:49,332 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: cbf6eda7-5f89-4d17-bd60-370969243597)
+24 Mar 2024 17:36:23,901 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 17:36:30,959 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 17:36:30,960 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 17:36:30,960 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:36:30,961 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 17:36:30,973 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 17:36:31,599 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:36:31,849 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:36:31,850 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:36:31,850 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:36:31,850 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:36:52,821 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 17:36:52,822 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 17:36:52,822 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:36:52,822 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:37:15,096 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 17:37:15,096 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 17:37:15,096 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:37:15,096 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:37:15,108 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 17:37:15,109 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 17:37:15,109 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:37:15,109 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:37:15,118 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 17:37:15,118 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 17:37:15,119 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:37:15,119 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:37:15,146 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 17:37:15,146 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 17:37:15,146 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:37:15,146 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:37:15,151 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 17:37:15,151 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 17:37:15,151 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:37:15,151 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:37:19,800 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 17:37:19,801 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 17:37:19,801 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:37:19,801 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: a69d6815-2f1f-4a0e-8e07-923d4ca8063d)
+24 Mar 2024 17:40:01,411 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 17:40:09,535 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 17:40:09,536 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 17:40:09,536 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:09,536 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 17:40:09,558 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 17:40:10,082 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:10,297 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:40:10,298 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:40:10,298 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:10,298 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:23,276 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 17:40:23,277 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 17:40:23,277 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:23,278 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:59,866 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 17:40:59,866 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 17:40:59,866 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:59,866 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:59,875 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 17:40:59,875 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 17:40:59,876 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:59,876 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:59,879 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 17:40:59,879 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 17:40:59,879 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:59,879 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:59,887 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 17:40:59,887 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 17:40:59,887 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:59,887 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:59,890 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 17:40:59,890 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 17:40:59,890 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:59,890 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:40:59,896 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:40:59,896 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:40:59,896 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:40:59,897 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 0357f735-b845-41f6-b07d-90fc058db1dc)
+24 Mar 2024 17:41:37,474 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 17:41:48,361 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 17:41:48,361 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 17:41:48,361 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:41:48,362 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 17:41:48,374 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 17:41:48,793 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:41:48,989 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:41:48,990 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:41:48,990 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:41:48,990 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:41:58,074 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 17:41:58,074 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 17:41:58,074 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:41:58,074 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:42:15,249 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 17:42:15,249 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 17:42:15,250 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:42:15,250 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:42:15,266 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 17:42:15,267 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 17:42:15,267 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:42:15,267 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:42:15,270 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 17:42:15,271 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 17:42:15,271 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:42:15,271 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:42:15,279 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 17:42:15,279 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 17:42:15,279 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:42:15,279 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:42:15,281 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 17:42:15,282 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 17:42:15,282 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:42:15,282 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:42:15,285 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:42:15,285 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:42:15,285 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:42:15,285 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 05dc3dc3-e3cc-4932-8f08-be665410a58a)
+24 Mar 2024 17:48:12,616 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 17:48:19,281 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 17:48:19,282 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 17:48:19,282 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:48:19,282 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 17:48:19,291 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 17:48:19,694 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 73eef7e7-755b-4973-9945-b83ddf330bcd)
+24 Mar 2024 17:48:19,887 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:48:19,888 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:48:19,888 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:48:19,888 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 73eef7e7-755b-4973-9945-b83ddf330bcd)
+24 Mar 2024 17:48:30,044 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 17:48:30,044 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 17:48:30,045 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:48:30,045 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 73eef7e7-755b-4973-9945-b83ddf330bcd)
+24 Mar 2024 17:48:35,455 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 17:48:35,455 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 17:48:35,455 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:48:35,456 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 73eef7e7-755b-4973-9945-b83ddf330bcd)
+24 Mar 2024 17:48:35,538 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:48:35,538 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:48:35,538 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:48:35,539 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: 73eef7e7-755b-4973-9945-b83ddf330bcd)
+24 Mar 2024 17:58:52,998 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 17:58:59,952 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 17:58:59,952 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 17:58:59,953 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:58:59,953 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 17:58:59,973 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 17:59:00,476 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:00,682 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:59:00,683 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:59:00,683 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:00,683 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:23,685 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 17:59:23,685 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 17:59:23,685 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:23,685 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:49,118 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 17:59:49,118 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 17:59:49,118 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:49,118 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:49,145 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 17:59:49,145 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 17:59:49,145 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:49,145 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:49,149 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 17:59:49,149 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 17:59:49,150 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:49,150 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:49,159 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 17:59:49,159 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 17:59:49,159 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:49,160 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:49,162 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 17:59:49,162 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 17:59:49,162 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:49,163 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:49,167 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 17:59:49,167 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 17:59:49,167 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:49,167 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 17:59:53,822 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 17:59:53,823 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 17:59:53,823 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 17:59:53,823 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:15,119 TRACE org.flighthub.Repository.ClientRepository 78 save - Enter
+24 Mar 2024 18:00:15,120 INFO  org.flighthub.Repository.ClientRepository 79 save - trying to save one Client
+24 Mar 2024 18:00:15,120 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:15,120 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:15,143 TRACE org.flighthub.Repository.TouristRepository 38 save - Enter
+24 Mar 2024 18:00:15,144 INFO  org.flighthub.Repository.TouristRepository 39 save - Trying to save a tourist
+24 Mar 2024 18:00:15,144 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:15,144 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:15,148 TRACE org.flighthub.Repository.TicketRepository 140 save - Enter
+24 Mar 2024 18:00:15,148 INFO  org.flighthub.Repository.TicketRepository 141 save - trying to save one Ticket
+24 Mar 2024 18:00:15,148 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:15,148 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:15,156 TRACE org.flighthub.Repository.FlightRepository 28 findOne - Enter
+24 Mar 2024 18:00:15,156 INFO  org.flighthub.Repository.FlightRepository 29 findOne - trying to find one Flight
+24 Mar 2024 18:00:15,156 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:15,157 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:15,159 TRACE org.flighthub.Repository.FlightRepository 183 updateAvailableSeats - Enter
+24 Mar 2024 18:00:15,159 INFO  org.flighthub.Repository.FlightRepository 184 updateAvailableSeats - trying to update available seats for Flight
+24 Mar 2024 18:00:15,159 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:15,159 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:15,162 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 18:00:15,163 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 18:00:15,163 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:15,163 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:17,962 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 18:00:17,962 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 18:00:17,962 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:17,962 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:00:19,664 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 18:00:19,664 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 18:00:19,664 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:00:19,665 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e560d9b5-cd7e-4222-b0b2-4c07d86f2c0e)
+24 Mar 2024 18:04:41,900 TRACE org.flighthub.StartApplication 28 start - Enter
+24 Mar 2024 18:04:49,183 TRACE org.flighthub.Repository.AgentRepository 178 login - Enter
+24 Mar 2024 18:04:49,183 INFO  org.flighthub.Repository.AgentRepository 179 login - trying to login Agent
+24 Mar 2024 18:04:49,184 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:04:49,184 TRACE org.flighthub.Utils.JdbcUtils 22 getNewConnection - Enter
+24 Mar 2024 18:04:49,210 INFO  org.flighthub.Utils.JdbcUtils 24 getNewConnection - trying to connect to database ... jdbc:sqlserver://DESKTOP-07IG6FN;databaseName=FlightHub;integratedSecurity=true;trustServerCertificate=true
+24 Mar 2024 18:04:49,747 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e90a9a1d-df9f-443b-b3b1-05da9f5b0a36)
+24 Mar 2024 18:04:49,959 TRACE org.flighthub.Repository.FlightRepository 88 findAll - Enter
+24 Mar 2024 18:04:49,959 INFO  org.flighthub.Repository.FlightRepository 89 findAll - trying to find multiple Flights
+24 Mar 2024 18:04:49,959 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:04:49,959 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e90a9a1d-df9f-443b-b3b1-05da9f5b0a36)
+24 Mar 2024 18:04:57,780 TRACE org.flighthub.Repository.FlightRepository 55 findByDestinationAndDepartureDate - Enter
+24 Mar 2024 18:04:57,780 INFO  org.flighthub.Repository.FlightRepository 56 findByDestinationAndDepartureDate - trying to find flights by destination and departure date
+24 Mar 2024 18:04:57,780 TRACE org.flighthub.Utils.JdbcUtils 38 getConnection - Enter
+24 Mar 2024 18:04:57,780 TRACE org.flighthub.Utils.JdbcUtils 47 getConnection - Exit with(ConnectionID:1 ClientConnectionId: e90a9a1d-df9f-443b-b3b1-05da9f5b0a36)

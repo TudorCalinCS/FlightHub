@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="274.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.flighthub.Controllers.TicketController">
+
+    <children>
+        <TextField fx:id="clientNameTextField" layoutX="22.0" layoutY="58.0" />
+        <Label layoutX="21.0" layoutY="40.0" text="Client's name" />
+        <TextField fx:id="clientAddressTextField" layoutX="21.0" layoutY="158.0" />
+        <Label layoutX="21.0" layoutY="140.0" text="Tourist's names" />
+        <Button layoutX="204.0" layoutY="133.0" mnemonicParsing="false" onAction="#handleBuy" prefHeight="30.0" prefWidth="88.0" text="Buy Ticket">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+      <Label layoutX="21.0" layoutY="91.0" text="Client's address" />
+      <TextField fx:id="touristsNameTextField" layoutX="23.0" layoutY="109.0" />
+      <TextField fx:id="seatsTextField" layoutX="22.0" layoutY="209.0" />
+      <Label layoutX="23.0" layoutY="189.0" text="Number of seats" />
+    </children>
+
+</AnchorPane>

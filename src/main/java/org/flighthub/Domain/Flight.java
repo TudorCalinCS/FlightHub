@@ -4,16 +4,17 @@ import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.UUID;
 
-public class Flight extends Entity<UUID>{
+public class Flight extends Entity<UUID> {
     private String destination;
     private LocalDateTime dateTime;
     private Integer availableSeats;
+    private String airport;
 
-    public Flight(String destination, LocalDateTime dateTime, Integer availableSeats) {
+    public Flight(String destination, LocalDateTime dateTime, Integer availableSeats, String airport) {
         this.destination = destination;
-        this.dateTime=dateTime;
+        this.dateTime = dateTime;
         this.availableSeats = availableSeats;
-        //if(this.getId()==null) this.setId(UUID.randomUUID());
+        this.airport = airport;
     }
 
     public String getDestination() {
@@ -27,4 +28,10 @@ public class Flight extends Entity<UUID>{
     public Integer getAvailableSeats() {
         return availableSeats;
     }
+
+    public String getAirport() {
+        return airport;
+    }
+
+    ;
 }

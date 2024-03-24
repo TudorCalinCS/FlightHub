@@ -6,6 +6,7 @@ import org.flighthub.Domain.Flight;
 import org.flighthub.Utils.JdbcUtils;
 
 import java.sql.*;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +36,7 @@ public class FlightRepository implements IFlightRepository {
             if (resultSet.next()) {
                 Flight flight = new Flight(resultSet.getString("destination"),
                         resultSet.getObject("dateTime", LocalDateTime.class),
-                        resultSet.getInt("availableSeats"));
+                        resultSet.getInt("availableSeats"),resultSet.getString("airport"));
                 flight.setId(UUID.fromString(resultSet.getString("id")));
                 return Optional.of(flight);
             }
@@ -47,23 +48,26 @@ public class FlightRepository implements IFlightRepository {
         return Optional.empty();
     }
     @Override
-    public Iterable<Flight> findByDestinationAndDepartureDate(String destination, LocalDateTime departureDate) {
+    public Iterable<Flight> findByDestinationAndDepartureDate(String destination, LocalDate departureDate) {
         List<Flight> flights = new ArrayList<>();
 
         try {
             logger.traceEntry();
             logger.info("trying to find flights by destination and departure date");
+
+
             Connection connection = JDBCconnection.getConnection();
-            String query = "SELECT * FROM Flight WHERE destination = ? AND dateTime = ?";
+           // String query = "SELECT * FROM Flight WHERE destination = ? AND DATE(dateTime) = ?";
+            String query="SELECT * FROM Flight WHERE destination = ? AND CAST(dateTime AS DATE) = ?";
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, destination);
-            statement.setTimestamp(2, Timestamp.valueOf(departureDate));
+            statement.setDate(2, Date.valueOf(departureDate)); // Folosim doar data
             ResultSet resultSet = statement.executeQuery();
 
             while (resultSet.next()) {
                 Flight flight = new Flight(resultSet.getString("destination"),
-                        resultSet.getTimestamp("dateTime").toLocalDateTime(),
-                        resultSet.getInt("availableSeats"));
+                        resultSet.getObject("dateTime", LocalDateTime.class),
+                        resultSet.getInt("availableSeats"),resultSet.getString("airport"));
                 flight.setId(UUID.fromString(resultSet.getString("id")));
                 flights.add(flight);
             }
@@ -74,6 +78,7 @@ public class FlightRepository implements IFlightRepository {
 
         return flights;
     }
+
 
     @Override
     public Iterable<Flight> findAll() {
@@ -90,7 +95,7 @@ public class FlightRepository implements IFlightRepository {
             while (resultSet.next()) {
                 Flight flight = new Flight(resultSet.getString("destination"),
                         resultSet.getObject("dateTime", LocalDateTime.class),
-                        resultSet.getInt("availableSeats"));
+                        resultSet.getInt("availableSeats"),resultSet.getString("airport"));
                 flight.setId(UUID.fromString(resultSet.getString("id")));
                 flights.add(flight);
             }
@@ -108,7 +113,7 @@ public class FlightRepository implements IFlightRepository {
             logger.traceEntry();
             logger.info("trying to save one Flight");
             Connection connection = JDBCconnection.getConnection();
-            String query = "INSERT INTO Flight (id, destination, dateTime, availableSeats) VALUES (?, ?, ?, ?)";
+            String query = "INSERT INTO Flight (id, destination, dateTime, availableSeats, airport) VALUES (?, ?,?, ?, ?)";
             PreparedStatement statement = connection.prepareStatement(query);
             UUID uuid = UUID.randomUUID();
             entity.setId(uuid);
@@ -116,6 +121,7 @@ public class FlightRepository implements IFlightRepository {
             statement.setString(2, entity.getDestination());
             statement.setObject(3, entity.getDateTime());
             statement.setInt(4, entity.getAvailableSeats());
+            statement.setString(5,entity.getAirport());
             statement.executeUpdate();
         } catch (SQLException e) {
             System.out.println("Error Repo " + e);
@@ -150,7 +156,7 @@ public class FlightRepository implements IFlightRepository {
     @Override
     public Optional<Flight> update(Flight entity) {
         Optional<Flight> flightOptional = findOne(entity.getId());
-
+        /*
         if (flightOptional.isPresent()) {
             try {
                 logger.traceEntry();
@@ -168,7 +174,23 @@ public class FlightRepository implements IFlightRepository {
                 logger.error(e);
             }
         }
-
+*/
         return flightOptional;
+    }
+    @Override
+    public void updateAvailableSeats(UUID flightId, int newAvailableSeats) {
+        try {
+            logger.traceEntry();
+            logger.info("trying to update available seats for Flight");
+            Connection connection = JDBCconnection.getConnection();
+            String query = "UPDATE Flight SET availableSeats = ? WHERE id = ?";
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setInt(1, newAvailableSeats);
+            statement.setString(2, flightId.toString());
+            statement.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println("Error Repo " + e);
+            logger.error(e);
+        }
     }
 }
