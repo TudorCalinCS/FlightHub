@@ -182,7 +182,6 @@ public class AgentRepository implements IAgentRepository {
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, username);
             ResultSet resultSet = statement.executeQuery();
-
             if (resultSet.next()) {
                 String hashedPassword = resultSet.getString("password");
                 if (BCrypt.checkpw(password, hashedPassword)) {
