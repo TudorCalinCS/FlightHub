@@ -1,0 +1,266 @@
+﻿2024-03-18 15:53:38,725 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-18 15:53:38,907 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-18 15:53:38,911 [1] INFO FlightHubC_.Tests.MainTests - Testing Repositories
+2024-03-18 15:53:38,911 [1] INFO FlightHubC_.Tests.MainTests - Testing AgentRepository
+2024-03-18 15:53:38,912 [1] INFO FlightHubC_.Program - saving one Agent
+2024-03-18 15:53:38,939 [1] INFO FlightHubC_.Program - finding all Agents
+2024-03-18 15:53:38,942 [1] INFO FlightHubC_.Tests.MainTests - Testing ClientRepository
+2024-03-18 15:53:38,943 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-18 15:53:38,946 [1] INFO FlightHubC_.Program - finding all Clients
+2024-03-18 15:53:38,948 [1] INFO FlightHubC_.Tests.MainTests - Testing FlightRepository
+2024-03-18 15:53:38,949 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-18 15:53:38,953 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-18 15:53:38,955 [1] INFO FlightHubC_.Tests.MainTests - Testing TicketRepository
+2024-03-18 15:53:38,956 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-18 15:53:38,961 [1] INFO FlightHubC_.Program - finding all Tickets
+2024-03-18 15:53:38,963 [1] INFO FlightHubC_.Program - finding one Client
+2024-03-18 15:53:38,968 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-18 15:53:38,974 [1] INFO FlightHubC_.Tests.MainTests - Tests finished
+2024-03-18 16:06:11,619 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-18 16:06:11,791 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-18 16:06:11,795 [1] INFO FlightHubC_.Tests.MainTests - Testing Repositories
+2024-03-18 16:06:11,795 [1] INFO FlightHubC_.Tests.MainTests - Testing AgentRepository
+2024-03-18 16:06:11,796 [1] INFO FlightHubC_.Program - saving one Agent
+2024-03-18 16:06:11,816 [1] INFO FlightHubC_.Program - finding all Agents
+2024-03-18 16:06:11,819 [1] INFO FlightHubC_.Tests.MainTests - Testing ClientRepository
+2024-03-18 16:06:11,819 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-18 16:06:11,822 [1] INFO FlightHubC_.Program - finding all Clients
+2024-03-18 16:06:11,824 [1] INFO FlightHubC_.Tests.MainTests - Testing FlightRepository
+2024-03-18 16:06:11,825 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-18 16:06:11,828 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-18 16:06:11,829 [1] INFO FlightHubC_.Tests.MainTests - Testing TicketRepository
+2024-03-18 16:06:11,830 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-18 16:06:11,834 [1] INFO FlightHubC_.Program - finding all Tickets
+2024-03-18 16:06:11,835 [1] INFO FlightHubC_.Program - finding one Client
+2024-03-18 16:06:11,844 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-18 16:06:11,854 [1] INFO FlightHubC_.Tests.MainTests - Tests finished
+2024-03-18 16:06:35,871 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-18 16:06:36,217 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-18 16:06:36,219 [1] INFO FlightHubC_.Tests.MainTests - Testing Repositories
+2024-03-18 16:06:36,219 [1] INFO FlightHubC_.Tests.MainTests - Testing AgentRepository
+2024-03-18 16:06:36,220 [1] INFO FlightHubC_.Program - saving one Agent
+2024-03-18 16:06:36,246 [1] INFO FlightHubC_.Program - finding all Agents
+2024-03-18 16:06:36,252 [1] INFO FlightHubC_.Tests.MainTests - Testing ClientRepository
+2024-03-18 16:06:36,256 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-18 16:06:36,268 [1] INFO FlightHubC_.Program - finding all Clients
+2024-03-18 16:06:36,269 [1] INFO FlightHubC_.Tests.MainTests - Testing FlightRepository
+2024-03-18 16:06:36,270 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-18 16:06:36,275 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-18 16:06:36,280 [1] INFO FlightHubC_.Tests.MainTests - Testing TicketRepository
+2024-03-18 16:06:36,281 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-18 16:06:36,287 [1] INFO FlightHubC_.Program - finding all Tickets
+2024-03-18 16:06:36,289 [1] INFO FlightHubC_.Program - finding one Client
+2024-03-18 16:06:36,296 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-18 16:06:36,324 [1] INFO FlightHubC_.Tests.MainTests - Tests finished
+2024-03-18 17:07:40,329 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-18 17:07:40,497 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-18 17:07:40,500 [1] INFO FlightHubC_.Tests.MainTests - Testing Repositories
+2024-03-18 17:07:40,500 [1] INFO FlightHubC_.Tests.MainTests - Testing AgentRepository
+2024-03-18 17:07:40,500 [1] INFO FlightHubC_.Program - saving one Agent
+2024-03-18 17:07:40,527 [1] INFO FlightHubC_.Program - finding all Agents
+2024-03-18 17:07:44,329 [1] INFO FlightHubC_.Tests.MainTests - Testing ClientRepository
+2024-03-18 17:07:44,330 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-18 17:07:44,345 [1] INFO FlightHubC_.Program - finding all Clients
+2024-03-18 17:07:44,347 [1] INFO FlightHubC_.Tests.MainTests - Testing FlightRepository
+2024-03-18 17:07:44,348 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-18 17:07:44,357 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-18 17:07:44,360 [1] INFO FlightHubC_.Tests.MainTests - Testing TicketRepository
+2024-03-18 17:07:44,361 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-18 17:07:44,372 [1] INFO FlightHubC_.Program - finding all Tickets
+2024-03-18 17:07:44,375 [1] INFO FlightHubC_.Program - finding one Client
+2024-03-18 17:07:44,385 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-18 17:07:44,404 [1] INFO FlightHubC_.Tests.MainTests - Tests finished
+2024-03-18 17:08:36,811 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-18 17:08:36,897 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-18 17:08:36,900 [1] INFO FlightHubC_.Tests.MainTests - Testing Repositories
+2024-03-18 17:08:36,900 [1] INFO FlightHubC_.Tests.MainTests - Testing AgentRepository
+2024-03-18 17:08:36,901 [1] INFO FlightHubC_.Program - saving one Agent
+2024-03-18 17:08:36,928 [1] INFO FlightHubC_.Program - finding all Agents
+2024-03-18 17:08:36,931 [1] INFO FlightHubC_.Tests.MainTests - Testing ClientRepository
+2024-03-18 17:08:36,931 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-18 17:08:36,934 [1] INFO FlightHubC_.Program - finding all Clients
+2024-03-18 17:08:36,935 [1] INFO FlightHubC_.Tests.MainTests - Testing FlightRepository
+2024-03-18 17:08:36,935 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-18 17:08:36,937 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-18 17:08:36,938 [1] INFO FlightHubC_.Tests.MainTests - Testing TicketRepository
+2024-03-18 17:08:36,939 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-18 17:08:36,943 [1] INFO FlightHubC_.Program - finding all Tickets
+2024-03-18 17:08:36,944 [1] INFO FlightHubC_.Program - finding one Client
+2024-03-18 17:08:36,951 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-18 17:08:36,962 [1] INFO FlightHubC_.Tests.MainTests - Tests finished
+2024-03-29 19:30:41,855 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-29 19:30:42,156 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-29 19:50:37,971 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-29 19:50:38,399 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:26:40,955 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 16:26:41,856 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:26:50,195 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:27:15,974 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:28:34,739 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 16:28:35,975 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:28:35,975 [1] INFO FlightHubC_.Program - saving one Agent
+2024-03-30 16:28:42,729 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:40:09,233 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 16:40:09,579 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:40:09,579 [1] INFO FlightHubC_.Program - saving one Agent
+2024-03-30 16:40:09,626 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 16:40:09,641 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-30 16:40:09,657 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-30 16:40:09,657 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-30 16:40:09,664 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-30 16:40:09,664 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-30 16:40:09,664 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-30 16:40:09,664 [1] INFO FlightHubC_.Program - saving one Flight
+2024-03-30 16:40:17,032 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:41:07,249 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 16:41:07,517 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:41:14,049 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:41:14,222 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 16:41:57,934 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 16:41:58,023 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:42:05,872 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:42:05,966 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 16:43:49,503 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 16:43:49,833 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:43:57,557 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:43:57,651 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 16:59:08,803 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 16:59:09,180 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 16:59:16,319 [1] INFO FlightHubC_.Program - login
+2024-03-30 16:59:16,460 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 16:59:29,825 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 16:59:29,856 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:00:28,060 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:00:28,124 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:00:34,819 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:00:34,898 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:00:44,043 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:01:09,792 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:01:24,034 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:30:04,356 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:30:04,545 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:30:20,834 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:30:20,943 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:30:34,439 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:30:37,972 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:31:22,821 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 17:31:22,885 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-30 17:33:03,352 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:33:03,537 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:33:10,656 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:33:10,781 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:33:18,669 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:33:21,131 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:33:28,850 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 17:33:46,920 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:33:47,642 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:35:25,670 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:35:25,748 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:35:32,657 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:35:32,742 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:35:49,269 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:36:25,394 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:37:39,684 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:37:39,763 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:37:47,534 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:37:47,628 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:37:58,454 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:38:33,558 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:40:32,449 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:40:32,511 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:40:40,964 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:40:41,043 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:40:48,950 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:43:04,622 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:43:47,065 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 17:44:15,732 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:46:26,845 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 17:49:54,080 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:49:54,238 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:50:01,174 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:50:01,259 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:50:10,138 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:50:21,390 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:50:43,126 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 17:51:55,986 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:52:26,029 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 17:52:36,852 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-30 17:52:36,895 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-30 17:52:36,912 [1] INFO FlightHubC_.Program - updating available seats for one Flight
+2024-03-30 17:52:43,808 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:52:47,843 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:53:29,999 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:53:30,094 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:53:37,752 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:53:37,847 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:54:01,385 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 17:54:04,346 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 17:54:39,085 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 17:54:39,115 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-30 17:54:39,115 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-30 17:54:39,134 [1] INFO FlightHubC_.Program - updating available seats for one Flight
+2024-03-30 17:54:41,396 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 17:57:35,230 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 17:57:35,321 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 17:57:41,870 [1] INFO FlightHubC_.Program - login
+2024-03-30 17:57:41,944 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 18:00:29,933 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 18:00:30,003 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 18:00:36,017 [1] INFO FlightHubC_.Program - login
+2024-03-30 18:00:36,144 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 18:01:33,865 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 18:01:33,929 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 18:01:40,093 [1] INFO FlightHubC_.Program - login
+2024-03-30 18:01:40,161 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 18:02:02,514 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-03-30 18:02:08,335 [1] INFO FlightHubC_.Program - searching flight by details
+2024-03-30 18:02:24,011 [1] INFO FlightHubC_.Program - saving one Clients
+2024-03-30 18:02:24,043 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-03-30 18:02:24,058 [1] INFO FlightHubC_.Program - finding one Flight
+2024-03-30 18:02:24,074 [1] INFO FlightHubC_.Program - updating available seats for one Flight
+2024-03-30 18:02:25,454 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 18:03:44,396 [1] INFO FlightHubC_.Program - Entering Main
+2024-03-30 18:03:44,471 [1] INFO FlightHubC_.Program - DB Connected
+2024-03-30 18:03:51,141 [1] INFO FlightHubC_.Program - login
+2024-03-30 18:03:51,236 [1] INFO FlightHubC_.Program - finding all Flight
+2024-03-30 18:03:58,665 [1] INFO FlightHubC_.Program - login
+2024-03-30 18:03:58,752 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-01 15:45:59,823 [1] INFO FlightHubC_.Program - Entering Main
+2024-04-01 15:46:00,037 [1] INFO FlightHubC_.Program - DB Connected
+2024-04-01 15:46:09,225 [1] INFO FlightHubC_.Program - login
+2024-04-01 15:46:09,329 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-01 15:46:34,406 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-04-01 15:46:49,141 [1] INFO FlightHubC_.Program - searching flight by details
+2024-04-01 15:47:16,582 [1] INFO FlightHubC_.Program - saving one Clients
+2024-04-01 15:47:16,595 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-04-01 15:47:16,608 [1] INFO FlightHubC_.Program - finding one Flight
+2024-04-01 15:47:16,619 [1] INFO FlightHubC_.Program - updating available seats for one Flight
+2024-04-01 15:47:19,422 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-01 15:47:25,233 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-04-01 16:05:02,075 [1] INFO FlightHubC_.Program - Entering Main
+2024-04-01 16:05:02,301 [1] INFO FlightHubC_.Program - DB Connected
+2024-04-01 16:05:14,611 [1] INFO FlightHubC_.Program - login
+2024-04-01 16:05:18,000 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-01 16:25:09,422 [1] INFO FlightHubC_.Program - Entering Main
+2024-04-01 16:25:09,610 [1] INFO FlightHubC_.Program - DB Connected
+2024-04-01 16:25:17,198 [1] INFO FlightHubC_.Program - login
+2024-04-01 16:25:17,296 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-01 16:33:48,737 [1] INFO FlightHubC_.Program - Entering Main
+2024-04-01 16:33:48,891 [1] INFO FlightHubC_.Program - DB Connected
+2024-04-01 16:33:57,493 [1] INFO FlightHubC_.Program - login
+2024-04-01 16:33:57,585 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-01 16:37:37,955 [1] INFO FlightHubC_.Program - Entering Main
+2024-04-01 16:37:38,112 [1] INFO FlightHubC_.Program - DB Connected
+2024-04-01 16:37:45,439 [1] INFO FlightHubC_.Program - login
+2024-04-01 16:37:45,531 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-01 16:38:04,039 [1] INFO FlightHubC_.Program - searching flight by destination and departure date
+2024-04-01 16:38:07,359 [1] INFO FlightHubC_.Program - searching flight by details
+2024-04-01 16:38:31,155 [1] INFO FlightHubC_.Program - saving one Clients
+2024-04-01 16:38:31,174 [1] INFO FlightHubC_.Program - saving one Ticket
+2024-04-01 16:38:31,187 [1] INFO FlightHubC_.Program - finding one Flight
+2024-04-01 16:38:31,196 [1] INFO FlightHubC_.Program - updating available seats for one Flight
+2024-04-01 16:38:32,132 [1] INFO FlightHubC_.Program - finding all Flight
+2024-04-19 12:36:17,685 [1] INFO FlightHubC_.Program - Entering Main
+2024-04-19 12:36:17,976 [1] INFO FlightHubC_.Program - DB Connected
+2024-04-19 12:36:24,917 [1] INFO FlightHubC_.Program - login
+2024-04-19 12:36:32,416 [1] INFO FlightHubC_.Program - login

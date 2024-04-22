@@ -1,0 +1,16 @@
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ChatSockets/services/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ChatSockets/services/bin/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ChatSockets/services/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ChatSockets/services/obj/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ChatSockets/services/obj/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ChatSockets/services/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ChatSockets/services/bin/Debug/model.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/bin/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/obj/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/obj/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/obj/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ChatSockets/services/bin/Debug/model.dll.mdb

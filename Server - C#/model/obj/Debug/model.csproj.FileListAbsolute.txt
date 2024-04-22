@@ -1,0 +1,12 @@
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\model\bin\Debug\model.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\model\bin\Debug\model.pdb
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\model\obj\Debug\model.csproj.AssemblyReference.cache
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\model\obj\Debug\model.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\model\obj\Debug\model.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\model\bin\Debug\model.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\model\bin\Debug\model.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\model\obj\Debug\model.csproj.AssemblyReference.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\model\obj\Debug\model.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\model\obj\Debug\model.pdb

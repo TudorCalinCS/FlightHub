@@ -1,0 +1,47 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/persistence/bin/Debug/persistence.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/persistence/bin/Debug/persistence.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/persistence/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/persistence/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/persistence/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/persistence/obj/Debug/persistence.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/persistence/obj/Debug/persistence.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/persistence/bin/Debug/persistence.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/persistence/bin/Debug/persistence.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/persistence/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/persistence/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/persistence/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/persistence/obj/Debug/persistence.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/persistence/obj/Debug/persistence.pdb
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\bin\Debug\persistence.dll.config
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\bin\Debug\persistence.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\bin\Debug\persistence.pdb
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\bin\Debug\model.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\bin\Debug\model.pdb
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\obj\Debug\persistence.csproj.AssemblyReference.cache
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\obj\Debug\persistence.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\obj\Debug\persistence.csproj.CopyComplete
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\obj\Debug\persistence.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\persistence\obj\Debug\persistence.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\bin\Debug\persistence.dll.config
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\bin\Debug\persistence.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\bin\Debug\persistence.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\bin\Debug\model.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\bin\Debug\model.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\obj\Debug\persistence.csproj.AssemblyReference.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\obj\Debug\persistence.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\obj\Debug\persistence.csproj.CopyComplete
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\obj\Debug\persistence.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\persistence\obj\Debug\persistence.pdb
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\bin\Debug\persistence.dll.config
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\bin\Debug\persistence.dll
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\bin\Debug\persistence.pdb
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\bin\Debug\model.dll
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\bin\Debug\model.pdb
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.csproj.AssemblyReference.cache
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.csproj.CopyComplete
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.dll
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.pdb

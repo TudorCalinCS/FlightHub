@@ -1,0 +1,50 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/services.pdb
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\bin\Debug\services.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\bin\Debug\services.pdb
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\bin\Debug\model.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\bin\Debug\model.pdb
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\obj\Debug\services.csproj.AssemblyReference.cache
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\obj\Debug\services.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\obj\Debug\services.csproj.CopyComplete
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\obj\Debug\services.dll
+C:\Users\Tudor\Downloads\ChatCsharp\ChatSockets_Csharp\ChatSockets\services\obj\Debug\services.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\bin\Debug\services.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\bin\Debug\services.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\bin\Debug\model.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\bin\Debug\model.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\obj\Debug\services.csproj.AssemblyReference.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\obj\Debug\services.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\obj\Debug\services.csproj.CopyComplete
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\obj\Debug\services.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets\services\obj\Debug\services.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\bin\Debug\services.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\bin\Debug\services.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\bin\Debug\model.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\bin\Debug\model.pdb
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\obj\Debug\services.csproj.AssemblyReference.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\obj\Debug\services.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\obj\Debug\services.csproj.CopyComplete
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\obj\Debug\services.dll
+C:\Users\Tudor\Desktop\Laboratoare\MPP\ChatSockets - Copy\services\obj\Debug\services.pdb
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\bin\Debug\services.dll
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\bin\Debug\services.pdb
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\bin\Debug\model.dll
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\bin\Debug\model.pdb
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\obj\Debug\services.csproj.AssemblyReference.cache
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\obj\Debug\services.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\obj\Debug\services.csproj.CopyComplete
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\obj\Debug\services.dll
+C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\services\obj\Debug\services.pdb

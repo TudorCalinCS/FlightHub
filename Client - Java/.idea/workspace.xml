@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22e6669c-a0c7-4351-ab7b-8c26be17fa71" name="Changes" comment="Working Ui" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ClientFX">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/JavaFX">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/JavaFX">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Client">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Shared">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="module-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TudorCalinCS&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="71e663bf-26a9-4695-9fcd-7c6575570ded" />
+        <option name="url" value="https://github.com/TudorCalinCS/FlightHub-Java.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dUrA417xSYe3MVUwluA78pEcC8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tudor/Desktop/Laboratoare/FlightHub/Client - Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37931034&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\Server\src\main\java\org\flighthub" />
+      <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\Client\src\main\resources" />
+      <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\Client\src\main\java\org\flighthub" />
+      <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\ClientFX\src\main\java\org\flighthub\clientfx" />
+      <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\Shared\src\main\java\org\flighthub" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\Server\src\main\resources" />
+      <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\src\JavaFX\src\main\java\org\flighthub\javafx" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.flighthub" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.FlightHub:Client [run]">
+    <configuration name="StartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flighthub.StartClient" />
+      <module name="FlightHub.Client.main" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\JavaFX\javafx-sdk-22\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.flighthub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.flighthub.StartServer" />
+      <module name="FlightHub.Server.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.flighthub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client - Java [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FlightHub:Client [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FlightHub:Server [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.StartServer" />
+      <item itemvalue="Application.StartClient" />
+      <item itemvalue="Gradle.Client - Java [run]" />
+      <item itemvalue="Gradle.FlightHub:Client [run]" />
+      <item itemvalue="Gradle.FlightHub:Server [run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FlightHub:Client [run]" />
+        <item itemvalue="Gradle.Client - Java [run]" />
+        <item itemvalue="Gradle.FlightHub:Server [run]" />
+        <item itemvalue="Application.StartServer" />
+        <item itemvalue="Application.StartClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22e6669c-a0c7-4351-ab7b-8c26be17fa71" name="Changes" comment="" />
+      <created>1710073365461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710073365461</updated>
+      <workItem from="1710073366499" duration="2409000" />
+      <workItem from="1710087950120" duration="1087000" />
+      <workItem from="1710166009934" duration="1326000" />
+      <workItem from="1710588426838" duration="85000" />
+      <workItem from="1710588641600" duration="172000" />
+      <workItem from="1710594603038" duration="4791000" />
+      <workItem from="1710625096701" duration="1447000" />
+      <workItem from="1710683346489" duration="455000" />
+      <workItem from="1710749633176" duration="457000" />
+      <workItem from="1710750408587" duration="4563000" />
+      <workItem from="1710758967873" duration="210000" />
+      <workItem from="1710770703845" duration="4758000" />
+      <workItem from="1711108273885" duration="6763000" />
+      <workItem from="1711202301477" duration="12350000" />
+      <workItem from="1711278069536" duration="13952000" />
+      <workItem from="1711375030160" duration="4722000" />
+      <workItem from="1711722719135" duration="12240000" />
+      <workItem from="1712399939524" duration="11015000" />
+      <workItem from="1712576544700" duration="9331000" />
+      <workItem from="1712654773881" duration="191000" />
+      <workItem from="1712920276461" duration="10453000" />
+      <workItem from="1713109248671" duration="64000" />
+      <workItem from="1713109325684" duration="201000" />
+      <workItem from="1713109556279" duration="6653000" />
+      <workItem from="1713123314553" duration="3623000" />
+      <workItem from="1713165174511" duration="5855000" />
+      <workItem from="1713174731108" duration="10952000" />
+      <workItem from="1713693704009" duration="17783000" />
+      <workItem from="1713726665332" duration="4294000" />
+      <workItem from="1713777839420" duration="2896000" />
+      <workItem from="1713787996429" duration="166000" />
+      <workItem from="1713788616782" duration="2487000" />
+      <workItem from="1713793079990" duration="231000" />
+      <workItem from="1713793892981" duration="1526000" />
+      <workItem from="1713795923913" duration="1158000" />
+      <workItem from="1713797118987" duration="750000" />
+    </task>
+    <task id="LOCAL-00001" summary="6th commit">
+      <option name="closed" value="true" />
+      <created>1710683765192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710683765192</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working Ui">
+      <option name="closed" value="true" />
+      <created>1711381202790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711381202790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="6th commit" />
+    <MESSAGE value="Working Ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Ui" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Server/src/main/java/org/flighthub/Service.java</url>
+          <line>29</line>
+          <properties class="org.flighthub.Service" method="login">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

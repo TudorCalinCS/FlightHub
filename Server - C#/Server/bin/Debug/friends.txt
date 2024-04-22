@@ -1,0 +1,5 @@
+ana:mihai:test
+mihai:ana:ion:test
+ion:maria:mihai:test
+maria:ion:test
+test:ana:mihai:ion:maria
