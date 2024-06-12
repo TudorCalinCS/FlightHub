@@ -45,3 +45,14 @@ C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\p
 C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.csproj.CopyComplete
 C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.dll
 C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\persistence\obj\Debug\persistence.pdb
+C:\Users\Tudor\FlightHub\Server - C#\persistence\bin\Debug\persistence.dll.config
+C:\Users\Tudor\FlightHub\Server - C#\persistence\bin\Debug\persistence.dll
+C:\Users\Tudor\FlightHub\Server - C#\persistence\bin\Debug\persistence.pdb
+C:\Users\Tudor\FlightHub\Server - C#\persistence\bin\Debug\model.dll
+C:\Users\Tudor\FlightHub\Server - C#\persistence\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\Tudor\FlightHub\Server - C#\persistence\bin\Debug\model.pdb
+C:\Users\Tudor\FlightHub\Server - C#\persistence\obj\Debug\persistence.csproj.AssemblyReference.cache
+C:\Users\Tudor\FlightHub\Server - C#\persistence\obj\Debug\persistence.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\FlightHub\Server - C#\persistence\obj\Debug\persistence.csproj.CopyComplete
+C:\Users\Tudor\FlightHub\Server - C#\persistence\obj\Debug\persistence.dll
+C:\Users\Tudor\FlightHub\Server - C#\persistence\obj\Debug\persistence.pdb

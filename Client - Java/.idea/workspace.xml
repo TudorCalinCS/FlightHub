@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e6669c-a0c7-4351-ab7b-8c26be17fa71" name="Changes" comment="Working Ui" />
+    <list default="true" id="22e6669c-a0c7-4351-ab7b-8c26be17fa71" name="Changes" comment="Working Ui">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/org/flighthub/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/org/flighthub/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/resources/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/resources/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/resources/ticket-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/resources/ticket-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/.vs/ChatSockets/FileContentIndex/11bc9c98-3778-447c-8d3e-d4766489595e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/.vs/ChatSockets/FileContentIndex/50fc171b-ecb2-42bd-a164-da8178d0c139.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/.vs/ChatSockets/FileContentIndex/5c0fae9f-4b60-4c01-a087-1e1c3d238bf3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/.vs/ChatSockets/FileContentIndex/ee899756-1ca4-4d6c-ba51-e019706dc894.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/Server/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/Server/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/Server/obj/x86/Debug/Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/Server/obj/x86/Debug/Server.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/model/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/model/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/networking/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/networking/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/networking/obj/Debug/networking.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/networking/obj/Debug/networking.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/persistence/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/persistence/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/persistence/obj/Debug/persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/persistence/obj/Debug/persistence.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/services/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/services/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server - C#/services/obj/Debug/services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Server - C#/services/obj/Debug/services.csproj.AssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +81,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -88,31 +108,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tudor/Desktop/Laboratoare/FlightHub/Client - Java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37931034&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Tudor/FlightHub/Client - Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37931034",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Tudor\Desktop\Laboratoare\MPP\FlightHub\Server\src\main\java\org\flighthub" />
@@ -284,6 +304,7 @@
       <workItem from="1713793892981" duration="1526000" />
       <workItem from="1713795923913" duration="1158000" />
       <workItem from="1713797118987" duration="750000" />
+      <workItem from="1718198246021" duration="2412000" />
     </task>
     <task id="LOCAL-00001" summary="6th commit">
       <option name="closed" value="true" />

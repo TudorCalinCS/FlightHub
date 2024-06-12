@@ -60,3 +60,14 @@ C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\networking\obj\Debug\ne
 C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\networking\obj\Debug\networking.csproj.CopyComplete
 C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\networking\obj\Debug\networking.dll
 C:\Users\Tudor\Desktop\Laboratoare\FlightHub\Server - C#\networking\obj\Debug\networking.pdb
+C:\Users\Tudor\FlightHub\Server - C#\networking\bin\Debug\networking.dll
+C:\Users\Tudor\FlightHub\Server - C#\networking\bin\Debug\networking.pdb
+C:\Users\Tudor\FlightHub\Server - C#\networking\bin\Debug\model.dll
+C:\Users\Tudor\FlightHub\Server - C#\networking\bin\Debug\services.dll
+C:\Users\Tudor\FlightHub\Server - C#\networking\bin\Debug\services.pdb
+C:\Users\Tudor\FlightHub\Server - C#\networking\bin\Debug\model.pdb
+C:\Users\Tudor\FlightHub\Server - C#\networking\obj\Debug\networking.csproj.AssemblyReference.cache
+C:\Users\Tudor\FlightHub\Server - C#\networking\obj\Debug\networking.csproj.CoreCompileInputs.cache
+C:\Users\Tudor\FlightHub\Server - C#\networking\obj\Debug\networking.csproj.CopyComplete
+C:\Users\Tudor\FlightHub\Server - C#\networking\obj\Debug\networking.dll
+C:\Users\Tudor\FlightHub\Server - C#\networking\obj\Debug\networking.pdb
